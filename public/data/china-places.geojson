@@ -1,0 +1,145 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"properties": { "name": "Urumqi" },
+			"geometry": { "type": "Point", "coordinates": [87.6168, 43.8256] }
+		},
+		{
+			"type": "Feature",
+			"properties": { "name": "Xining" },
+			"geometry": { "type": "Point", "coordinates": [101.7782, 36.6171] }
+		},
+		{
+			"type": "Feature",
+			"properties": { "name": "Haidong" },
+			"geometry": { "type": "Point", "coordinates": [102.401, 36.4821] }
+		},
+		{
+			"type": "Feature",
+			"properties": { "name": "Korla" },
+			"geometry": { "type": "Point", "coordinates": [86.1746, 41.7259] }
+		},
+		{
+			"type": "Feature",
+			"properties": { "name": "Lhasa" },
+			"geometry": { "type": "Point", "coordinates": [91.1322, 29.6604] }
+		},
+		{
+			"type": "Feature",
+			"properties": { "name": "Kashgar" },
+			"geometry": { "type": "Point", "coordinates": [75.9898, 39.4704] }
+		},
+		{
+			"type": "Feature",
+			"properties": { "name": "Aksu" },
+			"geometry": { "type": "Point", "coordinates": [80.2634, 41.1675] }
+		},
+		{
+			"type": "Feature",
+			"properties": { "name": "Yining" },
+			"geometry": { "type": "Point", "coordinates": [81.324, 43.9169] }
+		},
+		{
+			"type": "Feature",
+			"properties": { "name": "Shihezi" },
+			"geometry": { "type": "Point", "coordinates": [86.0806, 44.3061] }
+		},
+		{
+			"type": "Feature",
+			"properties": { "name": "Karamay" },
+			"geometry": { "type": "Point", "coordinates": [84.8739, 45.5959] }
+		},
+		{
+			"type": "Feature",
+			"properties": { "name": "Xigaze" },
+			"geometry": { "type": "Point", "coordinates": [88.8806, 29.2669] }
+		},
+		{
+			"type": "Feature",
+			"properties": { "name": "Changji" },
+			"geometry": { "type": "Point", "coordinates": [87.304, 44.0146] }
+		},
+		{
+			"type": "Feature",
+			"properties": { "name": "Turpan" },
+			"geometry": { "type": "Point", "coordinates": [89.1895, 42.9513] }
+		},
+		{
+			"type": "Feature",
+			"properties": { "name": "Hami" },
+			"geometry": { "type": "Point", "coordinates": [93.5147, 42.8332] }
+		},
+		{
+			"type": "Feature",
+			"properties": { "name": "Golmud" },
+			"geometry": { "type": "Point", "coordinates": [94.9033, 36.4016] }
+		},
+		{
+			"type": "Feature",
+			"properties": { "name": "Altay" },
+			"geometry": { "type": "Point", "coordinates": [88.1403, 47.8489] }
+		},
+		{
+			"type": "Feature",
+			"properties": { "name": "Nyingchi" },
+			"geometry": { "type": "Point", "coordinates": [94.3616, 29.6547] }
+		},
+		{
+			"type": "Feature",
+			"properties": { "name": "Shannan" },
+			"geometry": { "type": "Point", "coordinates": [91.7731, 29.237] }
+		},
+		{
+			"type": "Feature",
+			"properties": { "name": "Delingha" },
+			"geometry": { "type": "Point", "coordinates": [97.3764, 37.3746] }
+		},
+		{
+			"type": "Feature",
+			"properties": { "name": "Atushi" },
+			"geometry": { "type": "Point", "coordinates": [76.1684, 39.7162] }
+		},
+		{
+			"type": "Feature",
+			"properties": { "name": "Bole" },
+			"geometry": { "type": "Point", "coordinates": [82.0723, 44.903] }
+		},
+		{
+			"type": "Feature",
+			"properties": { "name": "Tacheng" },
+			"geometry": { "type": "Point", "coordinates": [82.9803, 46.7453] }
+		},
+		{
+			"type": "Feature",
+			"properties": { "name": "Qamdo" },
+			"geometry": { "type": "Point", "coordinates": [97.1722, 31.137] }
+		},
+		{
+			"type": "Feature",
+			"properties": { "name": "Yushu" },
+			"geometry": { "type": "Point", "coordinates": [97.0085, 33.0056] }
+		},
+		{
+			"type": "Feature",
+			"properties": { "name": "Tongren" },
+			"geometry": { "type": "Point", "coordinates": [102.0183, 35.5177] }
+		},
+		{
+			"type": "Feature",
+			"properties": { "name": "Nagqu" },
+			"geometry": { "type": "Point", "coordinates": [92.0517, 31.4766] }
+		},
+		{
+			"type": "Feature",
+			"properties": { "name": "Maqin" },
+			"geometry": { "type": "Point", "coordinates": [100.2448, 34.4773] }
+		},
+		{
+			"type": "Feature",
+			"properties": { "name": "Ngari" },
+			"geometry": { "type": "Point", "coordinates": [80.0964, 32.5032] }
+		}
+	]
+}

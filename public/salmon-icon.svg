@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Salmon body -->
+  <ellipse cx="16" cy="16" rx="13" ry="7" fill="#FA8072"/>
+  <!-- Darker belly shading -->
+  <ellipse cx="16" cy="18" rx="10" ry="4" fill="#E9967A"/>
+  <!-- Tail -->
+  <path d="M2 16 L-2 10 L-2 22 Z" fill="#FA8072" transform="translate(3,0)"/>
+  <!-- Dorsal fin -->
+  <path d="M18 9 Q22 5 24 9 L18 11 Z" fill="#CD5C5C"/>
+  <!-- Eye -->
+  <circle cx="26" cy="14" r="1.5" fill="#333"/>
+  <!-- Gill line -->
+  <path d="M23 12 Q22 16 23 20" stroke="#CD5C5C" stroke-width="1" fill="none"/>
+  <!-- Body stripes -->
+  <path d="M10 13 Q16 11 22 13" stroke="#E9967A" stroke-width="0.5" fill="none" opacity="0.6"/>
+  <path d="M8 16 Q16 14 24 16" stroke="#E9967A" stroke-width="0.5" fill="none" opacity="0.6"/>
+  <path d="M10 19 Q16 17 22 19" stroke="#E9967A" stroke-width="0.5" fill="none" opacity="0.6"/>
+</svg>

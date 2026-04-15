@@ -1,0 +1,482 @@
+{
+	"version": 8,
+	"id": "satellite-western",
+	"name": "Satellite Western China",
+	"sources": {
+		"maptiler_planet": {
+			"url": "https://api.maptiler.com/tiles/v4/tiles.json?key=R5Js2wLegZ6GMYd5iN2E",
+			"type": "vector"
+		},
+		"satellite": {
+			"url": "https://api.maptiler.com/tiles/satellite-v2/tiles.json?key=R5Js2wLegZ6GMYd5iN2E",
+			"type": "raster"
+		},
+		"overlay-polygon": {
+			"type": "geojson",
+			"data": {
+				"type": "Feature",
+				"geometry": {
+					"type": "Polygon",
+					"coordinates": [[[-180, -90], [180, -90], [180, 90], [-180, 90], [-180, -90]]]
+				}
+			}
+		},
+		"custom-labels": {
+			"type": "geojson",
+			"data": {
+				"type": "FeatureCollection",
+				"features": [
+					{
+						"type": "Feature",
+						"properties": {
+							"name": "XINJIANG",
+							"labelType": "region",
+							"priority": 1
+						},
+						"geometry": {
+							"type": "Point",
+							"coordinates": [85.5, 39.5]
+						}
+					},
+					{
+						"type": "Feature",
+						"properties": {
+							"name": "TIBETAN PLATEAU",
+							"labelType": "region",
+							"priority": 1
+						},
+						"geometry": {
+							"type": "LineString",
+							"coordinates": [
+								[78.5, 31.2],
+								[81.5, 32],
+								[84.5, 32.7],
+								[87.5, 33.2],
+								[90.5, 33.6],
+								[93.5, 33.8],
+								[96.5, 33.8],
+								[99.5, 33.6],
+								[102.5, 33.2],
+								[105.5, 32.7],
+								[108.5, 32]
+							]
+						}
+					},
+					{
+						"type": "Feature",
+						"properties": {
+							"name": "TIBET",
+							"labelType": "province",
+							"priority": 4
+						},
+						"geometry": {
+							"type": "Point",
+							"coordinates": [88.5, 30.5]
+						}
+					},
+					{
+						"type": "Feature",
+						"properties": {
+							"name": "QINGHAI",
+							"labelType": "province",
+							"priority": 4
+						},
+						"geometry": {
+							"type": "Point",
+							"coordinates": [96, 35.5]
+						}
+					},
+					{
+						"type": "Feature",
+						"properties": {
+							"name": "CHINA",
+							"labelType": "country",
+							"priority": 3
+						},
+						"geometry": {
+							"type": "Point",
+							"coordinates": [105, 38]
+						}
+					},
+					{
+						"type": "Feature",
+						"properties": {
+							"name": "MONGOLIA",
+							"labelType": "country",
+							"priority": 3
+						},
+						"geometry": {
+							"type": "Point",
+							"coordinates": [103, 46]
+						}
+					},
+					{
+						"type": "Feature",
+						"properties": {
+							"name": "KAZAKHSTAN",
+							"labelType": "country",
+							"priority": 3
+						},
+						"geometry": {
+							"type": "Point",
+							"coordinates": [75, 46]
+						}
+					},
+					{
+						"type": "Feature",
+						"properties": {
+							"name": "PAKISTAN",
+							"labelType": "country",
+							"priority": 3
+						},
+						"geometry": {
+							"type": "Point",
+							"coordinates": [73, 32]
+						}
+					},
+					{
+						"type": "Feature",
+						"properties": {
+							"name": "INDIA",
+							"labelType": "country",
+							"priority": 3
+						},
+						"geometry": {
+							"type": "Point",
+							"coordinates": [78, 28]
+						}
+					},
+					{
+						"type": "Feature",
+						"properties": {
+							"name": "NEPAL",
+							"labelType": "country",
+							"priority": 3
+						},
+						"geometry": {
+							"type": "Point",
+							"coordinates": [84, 28]
+						}
+					},
+					{
+						"type": "Feature",
+						"properties": {
+							"name": "KYRGYZSTAN",
+							"labelType": "country",
+							"priority": 3
+						},
+						"geometry": {
+							"type": "Point",
+							"coordinates": [74, 41]
+						}
+					}
+				]
+			}
+		}
+	},
+	"glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=R5Js2wLegZ6GMYd5iN2E",
+	"sprite": "https://api.maptiler.com/maps/satellite-v4/sprite",
+	"bearing": 0,
+	"pitch": 0,
+	"center": [88, 42],
+	"zoom": 3,
+	"layers": [
+		{
+			"id": "satellite-base",
+			"type": "raster",
+			"source": "satellite",
+			"layout": {
+				"visibility": "visible"
+			},
+			"paint": {
+				"raster-opacity": 1,
+				"raster-saturation": -0.15,
+				"raster-brightness-min": 0.05
+			}
+		},
+		{
+			"id": "country-overlay",
+			"type": "fill",
+			"source": "overlay-polygon",
+			"layout": {
+				"visibility": "visible"
+			},
+			"paint": {
+				"fill-color": "rgba(128, 128, 128, 0.10)"
+			}
+		},
+		{
+			"id": "country-borders",
+			"type": "line",
+			"source": "maptiler_planet",
+			"source-layer": "country_border",
+			"layout": {
+				"line-cap": "round",
+				"line-join": "round",
+				"visibility": "visible"
+			},
+			"paint": {
+				"line-color": "rgba(255, 222, 173, 0.95)",
+				"line-width": [
+					"interpolate",
+					["exponential", 1.5],
+					["zoom"],
+					2, 0.65,
+					6, 1.5,
+					12, 3
+				]
+			},
+			"filter": [
+				"all",
+				["==", ["geometry-type"], "LineString"],
+				["any", ["==", ["get", "maritime"], false], ["!", ["has", "maritime"]]]
+			]
+		},
+		{
+			"id": "china-city-labels",
+			"type": "symbol",
+			"source": "maptiler_planet",
+			"source-layer": "city_label",
+			"minzoom": 5,
+			"maxzoom": 16,
+			"layout": {
+				"symbol-sort-key": ["to-number", ["get", "rank"]],
+				"text-anchor": "bottom",
+				"text-field": ["coalesce", ["get", "name:en"], ["get", "name"]],
+				"text-font": ["Noto Sans Medium"],
+				"text-max-width": 10,
+				"text-size": [
+					"interpolate",
+					["linear"],
+					["zoom"],
+					5, 10,
+					8, 12,
+					12, 14
+				],
+				"visibility": "visible"
+			},
+			"paint": {
+				"text-color": "hsl(0, 0%, 100%)",
+				"text-halo-blur": 0.5,
+				"text-halo-color": "hsl(0, 0%, 0%)",
+				"text-halo-width": 1.5
+			},
+			"filter": [
+				"all",
+				["==", ["geometry-type"], "Point"],
+				["==", ["get", "iso_a2"], "CN"],
+				["!", ["match", ["get", "capital"], [20], true, false]]
+			]
+		},
+		{
+			"id": "china-capital-labels",
+			"type": "symbol",
+			"source": "maptiler_planet",
+			"source-layer": "city_label",
+			"minzoom": 4,
+			"maxzoom": 16,
+			"layout": {
+				"icon-anchor": "top",
+				"icon-image": ["step", ["zoom"], "circle-dot", 12, ""],
+				"icon-offset": [0, 5],
+				"icon-size": ["interpolate", ["linear"], ["zoom"], 3, 0.5, 16, 1],
+				"symbol-sort-key": ["to-number", ["get", "rank"]],
+				"text-anchor": "bottom",
+				"text-field": ["coalesce", ["get", "name:en"], ["get", "name"]],
+				"text-font": ["Noto Sans Bold"],
+				"text-max-width": 10,
+				"text-offset": [0, 0.5],
+				"text-size": [
+					"interpolate",
+					["linear"],
+					["zoom"],
+					4, 11,
+					8, 14,
+					12, 18
+				],
+				"visibility": "visible"
+			},
+			"paint": {
+				"icon-color": "hsl(0, 0%, 100%)",
+				"icon-halo-blur": 0.5,
+				"icon-halo-color": "hsl(0, 0%, 0%)",
+				"icon-halo-width": 1,
+				"text-color": "hsl(0, 0%, 100%)",
+				"text-halo-blur": 0.5,
+				"text-halo-color": "hsl(0, 0%, 0%)",
+				"text-halo-width": 1.5
+			},
+			"filter": [
+				"all",
+				["==", ["geometry-type"], "Point"],
+				["==", ["get", "iso_a2"], "CN"],
+				["match", ["get", "capital"], [20], true, false]
+			]
+		},
+		{
+			"id": "province-labels-level4",
+			"type": "symbol",
+			"source": "custom-labels",
+			"filter": ["==", ["get", "labelType"], "province"],
+			"minzoom": 4,
+			"maxzoom": 10,
+			"layout": {
+				"text-field": ["get", "name"],
+				"text-font": ["Noto Sans Regular"],
+				"text-size": [
+					"interpolate",
+					["linear"],
+					["zoom"],
+					4, 10,
+					6, 12,
+					8, 14
+				],
+				"text-letter-spacing": 0.15,
+				"text-transform": "uppercase",
+				"visibility": "visible"
+			},
+			"paint": {
+				"text-color": "rgba(255, 255, 255, 0.875)",
+				"text-halo-color": "rgba(0, 0, 0, 0.75)",
+				"text-halo-width": 1.2,
+				"text-halo-blur": 0.5
+			}
+		},
+		{
+			"id": "country-labels-level3",
+			"type": "symbol",
+			"source": "custom-labels",
+			"filter": [
+				"all",
+				["==", ["get", "labelType"], "country"],
+				["!=", ["get", "name"], "CHINA"]
+			],
+			"minzoom": 2,
+			"maxzoom": 8,
+			"layout": {
+				"text-field": ["get", "name"],
+				"text-font": ["Noto Sans Bold"],
+				"text-max-width": 10,
+				"text-size": [
+					"interpolate",
+					["linear"],
+					["zoom"],
+					2, 10,
+					4, 13,
+					6, 16
+				],
+				"text-transform": "uppercase",
+				"text-letter-spacing": 0.1,
+				"visibility": "visible"
+			},
+			"paint": {
+				"text-color": "rgba(255, 255, 255, 0.85)",
+				"text-halo-blur": 1,
+				"text-halo-color": "rgba(0, 0, 0, 0.7)",
+				"text-halo-width": 1.5
+			}
+		},
+		{
+			"id": "china-country-label",
+			"type": "symbol",
+			"source": "custom-labels",
+			"filter": [
+				"all",
+				["==", ["get", "labelType"], "country"],
+				["==", ["get", "name"], "CHINA"]
+			],
+			"minzoom": 2,
+			"maxzoom": 8,
+			"layout": {
+				"text-field": ["get", "name"],
+				"text-font": ["Noto Sans Bold"],
+				"text-max-width": 10,
+				"text-size": [
+					"interpolate",
+					["linear"],
+					["zoom"],
+					2, 25,
+					4, 32.5,
+					6, 40
+				],
+				"text-transform": "uppercase",
+				"text-letter-spacing": 0.15,
+				"visibility": "visible"
+			},
+			"paint": {
+				"text-color": "rgba(255, 255, 255, 0.9)",
+				"text-halo-blur": 1,
+				"text-halo-color": "rgba(0, 0, 0, 0.75)",
+				"text-halo-width": 2
+			}
+		},
+		{
+			"id": "xinjiang-label-level1",
+			"type": "symbol",
+			"source": "custom-labels",
+			"filter": [
+				"all",
+				["==", ["get", "labelType"], "region"],
+				["==", ["get", "name"], "XINJIANG"]
+			],
+			"layout": {
+				"text-field": ["get", "name"],
+				"text-font": ["Noto Sans Bold"],
+				"text-size": [
+					"interpolate",
+					["linear"],
+					["zoom"],
+					2, 12,
+					4, 16,
+					6, 20
+				],
+				"text-letter-spacing": 0.2,
+				"text-transform": "uppercase",
+				"symbol-sort-key": 0,
+				"visibility": "visible"
+			},
+			"paint": {
+				"text-color": "#ffffff",
+				"text-halo-color": "rgba(0, 0, 0, 0.8)",
+				"text-halo-width": 1.5,
+				"text-halo-blur": 0.5
+			}
+		},
+		{
+			"id": "tibetan-plateau-label-level1",
+			"type": "symbol",
+			"source": "custom-labels",
+			"filter": [
+				"all",
+				["==", ["get", "labelType"], "region"],
+				["==", ["get", "name"], "TIBETAN PLATEAU"]
+			],
+			"layout": {
+				"symbol-placement": "line-center",
+				"symbol-spacing": 9999,
+				"text-field": ["get", "name"],
+				"text-font": ["Noto Sans Bold"],
+				"text-size": [
+					"interpolate",
+					["linear"],
+					["zoom"],
+					2, 12,
+					4, 16,
+					6, 20
+				],
+				"text-letter-spacing": 0.8,
+				"text-transform": "uppercase",
+				"text-max-angle": 45,
+				"text-allow-overlap": false,
+				"symbol-sort-key": 0,
+				"visibility": "visible"
+			},
+			"paint": {
+				"text-color": "#ffffff",
+				"text-halo-color": "rgba(0, 0, 0, 0.8)",
+				"text-halo-width": 2,
+				"text-halo-blur": 1
+			}
+		}
+	]
+}
