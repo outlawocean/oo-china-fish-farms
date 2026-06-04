@@ -15301,29 +15301,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.54128,
-          38.91678
-        ]
-      },
-      "properties": {
-        "id": "10997",
-        "name": "Xinjiang Daolang Manor New Agricultural Group Company Ltd",
-        "chineseName": "新疆刀郎庄园新农业集团股份有限公司",
-        "address": "Xiyidun Village, Xiyidun Township, Maigaiti County, Kashgar Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Kashgar area",
-        "district": "Maigaiti County",
-        "locationType": "office",
-        "scale": "medium",
-        "established": "2021-06-28",
-        "taxpayerId": "91653100333028108D"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           77.55555,
           37.86707
         ]
