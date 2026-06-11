@@ -94,7 +94,7 @@ const FilterItem = memo(function FilterItem({ category, value, count, label, isC
   );
 });
 
-export default function FilterSidebar({ data, onFilterChange, isCollapsed, onToggleCollapse, timeline, showTimeline, activeTab, onTabChange, viewMode, onViewModeChange, mapViewState, hasActiveFilters: hasActiveFiltersProp, isTimelineActive, onSearchChange, currentFilters, currentSearchTerm }) {
+export default function FilterSidebar({ data, onFilterChange, isCollapsed, onToggleCollapse, timeline, showTimeline, activeTab, onTabChange, viewMode, onViewModeChange, mapViewState, hasActiveFilters: hasActiveFiltersProp, isTimelineActive, onSearchChange, currentFilters, currentSearchTerm, showFishmealPlants = false, onFishmealToggle, fishmealCount = null }) {
   const [filters, setFilters] = useState({
     provinces: []
   });
@@ -394,6 +394,92 @@ export default function FilterSidebar({ data, onFilterChange, isCollapsed, onTog
 
   const totalCount = data.features.length;
   const hasAnyFilters = filters.provinces.length > 0;
+
+  // Fishmeal plants overlay toggle — shared between mobile and desktop layouts
+  const fishmealSection = (
+    <div style={{ marginBottom: '1.5em' }}>
+      <div style={{
+        display: 'flex',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        marginBottom: '0.75em',
+        paddingBottom: '0.5em',
+        borderBottom: '1px solid hsla(0, 0%, 100%, 0.2)'
+      }}>
+        <h3 style={{
+          fontSize: isMobile ? '1em' : '0.875em',
+          fontWeight: '700',
+          color: 'var(--color-white)',
+          margin: 0,
+          textTransform: 'uppercase',
+          letterSpacing: '0.05em'
+        }}>
+          Fishmeal Plants
+        </h3>
+      </div>
+      <div
+        onClick={() => onFishmealToggle && onFishmealToggle(!showFishmealPlants)}
+        style={{
+          display: 'flex',
+          alignItems: 'center',
+          gap: '0.75em',
+          padding: isMobile ? '0.75em 1em' : '0.5em 0.75em',
+          cursor: 'pointer',
+          borderRadius: '0.375rem',
+          minHeight: isMobile ? '48px' : 'auto'
+        }}
+      >
+        <input
+          type="checkbox"
+          checked={showFishmealPlants}
+          onChange={() => {}}
+          aria-label="Show fishmeal plants"
+          style={{
+            width: isMobile ? '20px' : '16px',
+            height: isMobile ? '20px' : '16px',
+            cursor: 'pointer',
+            flexShrink: 0
+          }}
+        />
+        <span style={{
+          width: '10px',
+          height: '10px',
+          borderRadius: '50%',
+          backgroundColor: '#e8b30c',
+          border: '1px solid white',
+          flexShrink: 0
+        }} />
+        <span style={{
+          fontSize: isMobile ? '1em' : '0.875em',
+          color: 'var(--color-white)',
+          fontWeight: '500',
+          flex: 1
+        }}>
+          Show fishmeal plants
+        </span>
+        {fishmealCount != null && (
+          <span style={{
+            fontSize: isMobile ? '0.9375em' : '0.875em',
+            color: 'hsla(0, 0%, 100%, 0.5)',
+            fontWeight: '500',
+            flexShrink: 0,
+            minWidth: '40px',
+            textAlign: 'right'
+          }}>
+            {fishmealCount}
+          </span>
+        )}
+      </div>
+      <p style={{
+        fontSize: isMobile ? '0.875em' : '0.8125em',
+        color: 'rgba(255, 255, 255, 0.55)',
+        margin: '0.5em 0 0 0',
+        lineHeight: '1.5'
+      }}>
+        Most farmed fish are raised on feed that contains fishmeal, a protein made from ground-up fish. This layer shows more than 300 plants across the country, many of which supply the farms with fishmeal.
+      </p>
+    </div>
+  );
 
   if (isCollapsed) {
     return null;
@@ -871,6 +957,8 @@ export default function FilterSidebar({ data, onFilterChange, isCollapsed, onTog
                 )}
               </div>
             )}
+
+            {fishmealSection}
 
             {/* Bottom actions */}
             <div style={{
@@ -1508,6 +1596,8 @@ export default function FilterSidebar({ data, onFilterChange, isCollapsed, onTog
           )}
         </div>
       )}
+
+      {fishmealSection}
 
       {/* Locator Globe */}
       {mapViewState && (

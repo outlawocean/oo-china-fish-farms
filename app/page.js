@@ -31,6 +31,8 @@ export default function HomePage() {
   const [viewMode, setViewMode] = useState('points');
   const [mapViewState, setMapViewState] = useState(null);
   const [searchTerm, setSearchTerm] = useState('');
+  const [showFishmealPlants, setShowFishmealPlants] = useState(false);
+  const [fishmealData, setFishmealData] = useState(null);
   const isMobile = useIsMobile();
 
   // On mobile, sidebar starts collapsed; on desktop, it starts open
@@ -71,6 +73,17 @@ export default function HomePage() {
         setLoading(false);
       });
   }, [activeTab]);
+
+  // Lazy-load fishmeal plant locations the first time the layer is enabled
+  useEffect(() => {
+    if (!showFishmealPlants || fishmealData) return;
+
+    dataService.getFishmealPlants()
+      .then(setFishmealData)
+      .catch(error => {
+        console.error('Error loading fishmeal plant data:', error);
+      });
+  }, [showFishmealPlants, fishmealData]);
 
   // Apply province filters and search to the dataset
   const filteredData = useMemo(() => {
@@ -210,6 +223,9 @@ export default function HomePage() {
               onSearchChange={setSearchTerm}
               currentFilters={filters}
               currentSearchTerm={searchTerm}
+              showFishmealPlants={showFishmealPlants}
+              onFishmealToggle={setShowFishmealPlants}
+              fishmealCount={fishmealData?.features?.length ?? null}
             />
           )}
 
@@ -232,6 +248,9 @@ export default function HomePage() {
               onSearchChange={setSearchTerm}
               currentFilters={filters}
               currentSearchTerm={searchTerm}
+              showFishmealPlants={showFishmealPlants}
+              onFishmealToggle={setShowFishmealPlants}
+              fishmealCount={fishmealData?.features?.length ?? null}
             />
           )}
 
@@ -253,6 +272,8 @@ export default function HomePage() {
                   onViewModeChange={setViewMode}
                   onViewStateChange={setMapViewState}
                   searchTerm={searchTerm}
+                  showFishmealPlants={showFishmealPlants}
+                  fishmealData={fishmealData}
                 />
               </ErrorBoundary>
             )}

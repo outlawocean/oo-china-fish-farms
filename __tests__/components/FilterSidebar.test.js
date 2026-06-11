@@ -578,4 +578,64 @@ describe('FilterSidebar Component', () => {
       expect(defaultProps.onFilterChange).toHaveBeenCalled();
     });
   });
+
+  describe('Fishmeal Plants Toggle', () => {
+    beforeEach(() => {
+      useIsMobile.mockReturnValue(false);
+    });
+
+    it('should render the section header and explainer copy', () => {
+      render(<FilterSidebar {...defaultProps} />);
+
+      expect(screen.getByText('Fishmeal Plants')).toBeInTheDocument();
+      expect(screen.getByText(/feed that contains fishmeal/i)).toBeInTheDocument();
+      expect(screen.getByText(/more than 300 plants across the country/i)).toBeInTheDocument();
+    });
+
+    it('should render unchecked by default and call onFishmealToggle(true) when clicked', async () => {
+      const user = userEvent.setup();
+      const onFishmealToggle = jest.fn();
+      render(<FilterSidebar {...defaultProps} onFishmealToggle={onFishmealToggle} />);
+
+      const checkbox = screen.getByRole('checkbox', { name: /show fishmeal plants/i });
+      expect(checkbox).not.toBeChecked();
+
+      await user.click(checkbox);
+
+      expect(onFishmealToggle).toHaveBeenCalledWith(true);
+    });
+
+    it('should call onFishmealToggle(false) when toggled off', async () => {
+      const user = userEvent.setup();
+      const onFishmealToggle = jest.fn();
+      render(
+        <FilterSidebar
+          {...defaultProps}
+          showFishmealPlants={true}
+          onFishmealToggle={onFishmealToggle}
+        />
+      );
+
+      const checkbox = screen.getByRole('checkbox', { name: /show fishmeal plants/i });
+      expect(checkbox).toBeChecked();
+
+      await user.click(checkbox);
+
+      expect(onFishmealToggle).toHaveBeenCalledWith(false);
+    });
+
+    it('should show the plant count when data is loaded', () => {
+      render(<FilterSidebar {...defaultProps} fishmealCount={324} />);
+
+      expect(screen.getByText('324')).toBeInTheDocument();
+    });
+
+    it('should render the toggle in the mobile drawer layout', () => {
+      useIsMobile.mockReturnValue(true);
+      render(<FilterSidebar {...defaultProps} />);
+
+      expect(screen.getByText('Fishmeal Plants')).toBeInTheDocument();
+      expect(screen.getByRole('checkbox', { name: /show fishmeal plants/i })).toBeInTheDocument();
+    });
+  });
 });

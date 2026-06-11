@@ -56,6 +56,10 @@ const BOUNDS_ALL = [
   [158.56, 55.70],
 ];
 
+// Fishmeal plant marker color — the gold from the app palette (--color-uyg),
+// distinct in both hue and shape (circle) from the red square farm markers
+const FISHMEAL_COLOR = '#e8b30c';
+
 // Case Stroke border style - bright line on dark casing for maximum visibility
 // "Sandwich" of lines visible over both light deserts and dark forests
 // Reduced 25% from original
@@ -72,7 +76,7 @@ const BORDER_STYLE = {
   }
 };
 
-export default function MapViewer({ geojsonData, datasetType = 'all', isSidebarCollapsed, timelineYear, timelineMaxYear, hasActiveFilters = false, viewMode = 'points', onViewModeChange, onViewStateChange, searchTerm = '' }) {
+export default function MapViewer({ geojsonData, datasetType = 'all', isSidebarCollapsed, timelineYear, timelineMaxYear, hasActiveFilters = false, viewMode = 'points', onViewModeChange, onViewStateChange, searchTerm = '', showFishmealPlants = false, fishmealData = null }) {
   const [selectedFarm, setSelectedFarm] = useState(null);
   const [iconsLoaded, setIconsLoaded] = useState(false);
   const [hoverInfo, setHoverInfo] = useState(null);
@@ -258,6 +262,47 @@ export default function MapViewer({ geojsonData, datasetType = 'all', isSidebarC
     }
     setSelectedFarm(null);
   }, [isWestern, getMapCenter, onViewStateChange]);
+
+  // Fishmeal plants sit mostly on China's east coast, outside the western map
+  // bounds — widen the view when the layer turns on, ease back when it turns off
+  const prevShowFishmealRef = useRef(showFishmealPlants);
+  const pendingBoundsRestoreRef = useRef(null);
+  useEffect(() => {
+    if (prevShowFishmealRef.current === showFishmealPlants) return;
+    prevShowFishmealRef.current = showFishmealPlants;
+
+    const map = mapRef.current?.getMap();
+    if (!map || !isWestern) return;
+
+    // Update bounds imperatively: passing a changed maxBounds prop through
+    // react-map-gl crashes mapbox-gl with infinite _calcMatrices recursion.
+    // Widening is safe immediately; narrowing waits until the camera is back
+    // west so the constraint doesn't snap the view mid-flight.
+    if (pendingBoundsRestoreRef.current) {
+      map.off('moveend', pendingBoundsRestoreRef.current);
+      pendingBoundsRestoreRef.current = null;
+    }
+    if (showFishmealPlants) {
+      map.setMaxBounds(BOUNDS_ALL);
+    } else {
+      const restoreBounds = () => {
+        pendingBoundsRestoreRef.current = null;
+        map.setMaxBounds(BOUNDS_WESTERN);
+      };
+      pendingBoundsRestoreRef.current = restoreBounds;
+      map.once('moveend', restoreBounds);
+    }
+
+    const centers = getMapCenter(isMobileRef.current);
+    const target = showFishmealPlants ? centers.all : centers.western;
+    map.easeTo({
+      center: [target.longitude, target.latitude],
+      zoom: target.zoom,
+      pitch: target.pitch,
+      bearing: target.bearing,
+      duration: 1200
+    });
+  }, [showFishmealPlants, isWestern, getMapCenter]);
 
   // Use Mapbox layers for large datasets (>2000 features), React markers for small
   const useLayers = geojsonData.features.length > 2000 || isWestern;
@@ -567,7 +612,10 @@ export default function MapViewer({ geojsonData, datasetType = 'all', isSidebarC
         })}
         style={{ width: '100%', height: '100%' }}
         mapStyle={mapStyle}
-        interactiveLayerIds={useLayers ? (showHexbins ? ['hexbin-fill', 'all-points-layer'] : ['all-points-layer']) : undefined}
+        interactiveLayerIds={[
+          ...(useLayers ? (showHexbins ? ['hexbin-fill', 'all-points-layer'] : ['all-points-layer']) : []),
+          ...(showFishmealPlants && fishmealData ? ['fishmeal-plants-layer'] : [])
+        ]}
         cursor={isWestern ? (hoverInfo ? 'pointer' : 'grab') : undefined}
         onLoad={handleMapLoad}
         onMoveEnd={handleMoveEnd}
@@ -858,6 +906,39 @@ export default function MapViewer({ geojsonData, datasetType = 'all', isSidebarC
             );
           })
         )}
+
+        {/* Fishmeal plants overlay */}
+        {showFishmealPlants && fishmealData && (
+          <Source id="fishmeal-plants" type="geojson" data={fishmealData}>
+            <Layer
+              id="fishmeal-plants-layer"
+              type="circle"
+              beforeId={isWestern ? "china-city-labels" : undefined}
+              paint={{
+                'circle-radius': isMobile ? 5.5 : 4.5,
+                'circle-color': FISHMEAL_COLOR,
+                'circle-stroke-width': 1,
+                'circle-stroke-color': '#ffffff',
+                'circle-opacity': 0.9
+              }}
+            />
+            {hoverInfo?.feature?.layer?.id === 'fishmeal-plants-layer' && !isMobile && (
+              <Layer
+                id="fishmeal-hover-ring"
+                type="circle"
+                beforeId={isWestern ? "china-city-labels" : undefined}
+                filter={['==', ['get', 'id'], hoverInfo.feature.properties.id]}
+                paint={{
+                  'circle-radius': 12,
+                  'circle-color': 'transparent',
+                  'circle-stroke-width': 2,
+                  'circle-stroke-color': 'rgba(255, 255, 255, 0.85)',
+                  'circle-stroke-opacity': 1
+                }}
+              />
+            )}
+          </Source>
+        )}
       </Map>
 
 
@@ -978,6 +1059,18 @@ export default function MapViewer({ geojsonData, datasetType = 'all', isSidebarC
                 paddingBottom: 'calc(20px + env(safe-area-inset-bottom, 0px))'
               }}
             >
+              {selectedFarm.properties.kind === 'fishmeal_plant' && (
+                <div style={{
+                  fontSize: '11px',
+                  fontWeight: '700',
+                  letterSpacing: '0.08em',
+                  textTransform: 'uppercase',
+                  color: '#9c7a08',
+                  marginBottom: '6px'
+                }}>
+                  Fishmeal Plant
+                </div>
+              )}
               <h2 style={{
                 margin: '0 0 8px 0',
                 fontSize: '20px',
@@ -1017,6 +1110,11 @@ export default function MapViewer({ geojsonData, datasetType = 'all', isSidebarC
                 >
                   {selectedFarm.geometry.coordinates[1].toFixed(3)}, {selectedFarm.geometry.coordinates[0].toFixed(3)} →
                 </button>
+                {selectedFarm.properties.locationPrecision === 'Approximate' && (
+                  <div style={{ marginTop: '4px', fontSize: '12px', color: '#999' }}>
+                    Location is approximate
+                  </div>
+                )}
               </div>
 
               <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
@@ -1042,21 +1140,41 @@ export default function MapViewer({ geojsonData, datasetType = 'all', isSidebarC
                   </div>
                 </div>
 
-                <div>
-                  <h3 style={{
-                    margin: '0 0 6px 0',
-                    fontSize: '11px',
-                    fontWeight: '600',
-                    letterSpacing: '0.08em',
-                    textTransform: 'uppercase',
-                    color: '#c41e1e'
-                  }}>
-                    Established
-                  </h3>
-                  <div style={{ fontSize: '15px', color: '#333' }}>
-                    {selectedFarm.properties.established || '—'}
+                {selectedFarm.properties.kind === 'fishmeal_plant' ? (
+                  selectedFarm.properties.address && (
+                    <div>
+                      <h3 style={{
+                        margin: '0 0 6px 0',
+                        fontSize: '11px',
+                        fontWeight: '600',
+                        letterSpacing: '0.08em',
+                        textTransform: 'uppercase',
+                        color: '#c41e1e'
+                      }}>
+                        Address
+                      </h3>
+                      <div style={{ fontSize: '15px', color: '#333', lineHeight: '1.5' }}>
+                        {selectedFarm.properties.address}
+                      </div>
+                    </div>
+                  )
+                ) : (
+                  <div>
+                    <h3 style={{
+                      margin: '0 0 6px 0',
+                      fontSize: '11px',
+                      fontWeight: '600',
+                      letterSpacing: '0.08em',
+                      textTransform: 'uppercase',
+                      color: '#c41e1e'
+                    }}>
+                      Established
+                    </h3>
+                    <div style={{ fontSize: '15px', color: '#333' }}>
+                      {selectedFarm.properties.established || '—'}
+                    </div>
                   </div>
-                </div>
+                )}
               </div>
             </div>
             </div>
@@ -1109,6 +1227,18 @@ export default function MapViewer({ geojsonData, datasetType = 'all', isSidebarC
               overflowY: 'auto',
               padding: '32px 28px'
             }}>
+              {selectedFarm.properties.kind === 'fishmeal_plant' && (
+                <div style={{
+                  fontSize: '12px',
+                  fontWeight: '700',
+                  letterSpacing: '0.08em',
+                  textTransform: 'uppercase',
+                  color: '#9c7a08',
+                  marginBottom: '8px'
+                }}>
+                  Fishmeal Plant
+                </div>
+              )}
               <h2 style={{
                 margin: '0 0 8px 0',
                 fontSize: '24px',
@@ -1164,6 +1294,11 @@ export default function MapViewer({ geojsonData, datasetType = 'all', isSidebarC
                     </span>
                   )}
                 </span>
+                {selectedFarm.properties.locationPrecision === 'Approximate' && (
+                  <span style={{ marginLeft: '10px', fontSize: '12px', color: '#999' }}>
+                    approximate location
+                  </span>
+                )}
               </div>
 
               <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
@@ -1189,21 +1324,41 @@ export default function MapViewer({ geojsonData, datasetType = 'all', isSidebarC
                   </div>
                 </div>
 
-                <div>
-                  <h3 style={{
-                    margin: '0 0 8px 0',
-                    fontSize: '12px',
-                    fontWeight: '600',
-                    letterSpacing: '0.08em',
-                    textTransform: 'uppercase',
-                    color: '#c41e1e'
-                  }}>
-                    Established
-                  </h3>
-                  <div style={{ fontSize: '15px', color: '#333' }}>
-                    {selectedFarm.properties.established || '—'}
+                {selectedFarm.properties.kind === 'fishmeal_plant' ? (
+                  selectedFarm.properties.address && (
+                    <div>
+                      <h3 style={{
+                        margin: '0 0 8px 0',
+                        fontSize: '12px',
+                        fontWeight: '600',
+                        letterSpacing: '0.08em',
+                        textTransform: 'uppercase',
+                        color: '#c41e1e'
+                      }}>
+                        Address
+                      </h3>
+                      <div style={{ fontSize: '15px', color: '#333', lineHeight: '1.6' }}>
+                        {selectedFarm.properties.address}
+                      </div>
+                    </div>
+                  )
+                ) : (
+                  <div>
+                    <h3 style={{
+                      margin: '0 0 8px 0',
+                      fontSize: '12px',
+                      fontWeight: '600',
+                      letterSpacing: '0.08em',
+                      textTransform: 'uppercase',
+                      color: '#c41e1e'
+                    }}>
+                      Established
+                    </h3>
+                    <div style={{ fontSize: '15px', color: '#333' }}>
+                      {selectedFarm.properties.established || '—'}
+                    </div>
                   </div>
-                </div>
+                )}
               </div>
             </div>
           </div>

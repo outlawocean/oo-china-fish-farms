@@ -402,6 +402,45 @@ describe('DataService', () => {
     });
   });
 
+  describe('getFishmealPlants', () => {
+    it('should fetch fishmeal plants GeoJSON from the JSON endpoint', async () => {
+      const mockGeoJSON = {
+        type: 'FeatureCollection',
+        features: [
+          {
+            type: 'Feature',
+            geometry: { type: 'Point', coordinates: [120.38, 36.07] },
+            properties: { id: '1', name: 'Test Plant', kind: 'fishmeal_plant' }
+          }
+        ]
+      };
+
+      global.fetch.mockResolvedValueOnce({
+        ok: true,
+        json: async () => mockGeoJSON
+      });
+
+      const result = await dataService.getFishmealPlants();
+
+      expect(global.fetch).toHaveBeenCalledWith('/data/fishmeal-plants.json');
+      expect(result.type).toBe('FeatureCollection');
+      expect(result.features).toHaveLength(1);
+      expect(result.features[0].properties.kind).toBe('fishmeal_plant');
+    });
+
+    it('should cache fishmeal plants after the first fetch', async () => {
+      global.fetch.mockResolvedValue({
+        ok: true,
+        json: async () => ({ type: 'FeatureCollection', features: [] })
+      });
+
+      await dataService.getFishmealPlants();
+      await dataService.getFishmealPlants();
+
+      expect(global.fetch).toHaveBeenCalledTimes(1);
+    });
+  });
+
   describe('error handling', () => {
     it('should throw error on non-ok response', async () => {
       global.fetch.mockResolvedValueOnce({

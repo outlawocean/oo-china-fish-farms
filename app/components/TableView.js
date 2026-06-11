@@ -1,7 +1,8 @@
 'use client';
 
-import { useState, useMemo, useCallback } from 'react';
+import { useState, useEffect, useMemo, useCallback } from 'react';
 import useIsMobile from '../hooks/useIsMobile';
+import { dataService } from '../../services/dataService';
 
 const ROWS_PER_PAGE = 100;
 const MOBILE_ROWS_PER_PAGE = 20;
@@ -35,6 +36,16 @@ const PRIORITY_COMPANIES = [
 const TOP_PRIORITY_COMPANY = 'Xinjiang Tianyun Organic Agriculture Company Ltd';
 const SECOND_PRIORITY_COMPANY = 'Longyang Zhixian';
 
+// Escape values that contain commas, quotes, or newlines
+const escapeCSV = (value) => {
+  if (value === null || value === undefined) return '';
+  const str = String(value);
+  if (str.includes(',') || str.includes('"') || str.includes('\n')) {
+    return `"${str.replace(/"/g, '""')}"`;
+  }
+  return str;
+};
+
 const generateCSV = (features) => {
   const headers = [
     'Name',
@@ -53,16 +64,6 @@ const generateCSV = (features) => {
     const props = feature.properties;
     const [lon, lat] = feature.geometry.coordinates;
 
-    // Escape values that contain commas, quotes, or newlines
-    const escapeCSV = (value) => {
-      if (value === null || value === undefined) return '';
-      const str = String(value);
-      if (str.includes(',') || str.includes('"') || str.includes('\n')) {
-        return `"${str.replace(/"/g, '""')}"`;
-      }
-      return str;
-    };
-
     return [
       escapeCSV(props.name),
       escapeCSV(props.chineseName),
@@ -74,6 +75,37 @@ const generateCSV = (features) => {
       lat,
       lon,
       escapeCSV(props.taxpayerId)
+    ].join(',');
+  });
+
+  return [headers.join(','), ...rows].join('\n');
+};
+
+// Fishmeal plants have a narrower schema than farms (no district,
+// establishment date, or taxpayer ID), so they export as their own file
+const generateFishmealCSV = (features) => {
+  const headers = [
+    'Name',
+    'Chinese Name',
+    'Province',
+    'City',
+    'Address',
+    'Lat (WGS84)',
+    'Lon (WGS84)'
+  ];
+
+  const rows = features.map(feature => {
+    const props = feature.properties;
+    const [lon, lat] = feature.geometry.coordinates;
+
+    return [
+      escapeCSV(props.name),
+      escapeCSV(props.chineseName),
+      escapeCSV(props.province),
+      escapeCSV(props.city),
+      escapeCSV(props.address),
+      lat,
+      lon
     ].join(',');
   });
 
@@ -101,7 +133,23 @@ export default function TableView({ geojsonData, onBackToMap }) {
   const [currentPage, setCurrentPage] = useState(1);
   const [userHasSorted, setUserHasSorted] = useState(false);
   const [expandedCard, setExpandedCard] = useState(null);
+  const [fishmealData, setFishmealData] = useState(null);
   const isMobile = useIsMobile();
+
+  // Load fishmeal plants for the dedicated CSV download (cached by dataService)
+  useEffect(() => {
+    let cancelled = false;
+    dataService.getFishmealPlants()
+      .then(data => {
+        if (!cancelled) setFishmealData(data);
+      })
+      .catch(error => {
+        console.error('Error loading fishmeal plant data:', error);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
   const rowsPerPage = isMobile ? MOBILE_ROWS_PER_PAGE : ROWS_PER_PAGE;
 
@@ -199,6 +247,12 @@ export default function TableView({ geojsonData, onBackToMap }) {
     const csv = generateCSV(geojsonData.features);
     downloadCSV(csv, 'all-china-fish-farms.csv');
   }, [geojsonData]);
+
+  const handleDownloadFishmeal = useCallback(() => {
+    if (!fishmealData) return;
+    const csv = generateFishmealCSV(fishmealData.features);
+    downloadCSV(csv, 'china-fishmeal-plants.csv');
+  }, [fishmealData]);
 
   const westernCount = useMemo(() => {
     if (!geojsonData) return 0;
@@ -511,6 +565,33 @@ export default function TableView({ geojsonData, onBackToMap }) {
             </svg>
             All ({geojsonData?.features.length.toLocaleString() || 0})
           </button>
+          {fishmealData && (
+            <button
+              onClick={handleDownloadFishmeal}
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '6px',
+                padding: '10px 14px',
+                backgroundColor: 'transparent',
+                border: '1px solid rgba(255, 255, 255, 0.2)',
+                borderRadius: '8px',
+                color: 'var(--color-white)',
+                fontSize: '13px',
+                fontWeight: '500',
+                cursor: 'pointer',
+                whiteSpace: 'nowrap',
+                minHeight: '44px'
+              }}
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                <polyline points="7 10 12 15 17 10" />
+                <line x1="12" y1="15" x2="12" y2="3" />
+              </svg>
+              Fishmeal Plants ({fishmealData.features.length.toLocaleString()})
+            </button>
+          )}
         </div>
 
         {/* Card list */}
@@ -733,6 +814,40 @@ export default function TableView({ geojsonData, onBackToMap }) {
             </svg>
             All China CSV ({geojsonData?.features.length.toLocaleString() || 0})
           </button>
+          {fishmealData && (
+            <button
+              onClick={handleDownloadFishmeal}
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '0.5em',
+                padding: '0.625em 1em',
+                backgroundColor: 'transparent',
+                border: '1px solid rgba(255, 255, 255, 0.25)',
+                borderRadius: 'var(--border-radius)',
+                color: 'var(--color-white)',
+                fontSize: '0.8125em',
+                fontWeight: '500',
+                cursor: 'pointer',
+                transition: 'background-color 0.15s ease, border-color 0.15s ease'
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.08)';
+                e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.4)';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.backgroundColor = 'transparent';
+                e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.25)';
+              }}
+            >
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                <polyline points="7 10 12 15 17 10" />
+                <line x1="12" y1="15" x2="12" y2="3" />
+              </svg>
+              Fishmeal Plants CSV ({fishmealData.features.length.toLocaleString()})
+            </button>
+          )}
         </div>
         <div style={{
           fontSize: '0.875em',
