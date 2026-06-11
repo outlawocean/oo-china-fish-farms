@@ -26,7 +26,7 @@ jobs:
       - run: npm ci
       - name: Build
         env:
-          NEXT_PUBLIC_BASE_PATH: /china-fish-farms
+          NEXT_PUBLIC_BASE_PATH: /oo-china-fish-farms
           NEXT_PUBLIC_MAPBOX_TOKEN: ${{ secrets.NEXT_PUBLIC_MAPBOX_TOKEN }}
         run: |
           npm run build
