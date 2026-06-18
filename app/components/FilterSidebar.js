@@ -599,7 +599,7 @@ export default function FilterSidebar({ data, onFilterChange, isCollapsed, onTog
                   lineHeight: '1.65',
                   fontWeight: '400'
                 }}>
-                  In recent years, China has pushed fish farming in the country's desert and mountainous far west, particularly in Xinjiang and across the Tibetan plateau. This map shows more than 1,200 of these farms and it also offers access to a national database of more than 63,000 farms.
+                  In recent years, China has pushed fish farming in the country's desert and mountainous far west, particularly in Xinjiang and across the Tibetan plateau. This map shows over 1,000 of these farms and it also offers access to a national database of more than 63,000 farms.
                 </p>
               </div>
             )}
@@ -1107,7 +1107,7 @@ export default function FilterSidebar({ data, onFilterChange, isCollapsed, onTog
             lineHeight: '1.65',
             fontWeight: '400'
           }}>
-            In recent years, China has pushed fish farming in the country's desert and mountainous far west, particularly in Xinjiang and across the Tibetan plateau. This map shows more than 1,200 of these farms and it also offers access to a national database of more than 63,000 farms.
+            In recent years, China has pushed fish farming in the country's desert and mountainous far west, particularly in Xinjiang and across the Tibetan plateau. This map shows over 1,000 of these farms and it also offers access to a national database of more than 63,000 farms.
           </p>
         </div>
       )}

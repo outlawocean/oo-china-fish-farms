@@ -144,29 +144,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          87.54656,
-          44.1712
-        ]
-      },
-      "properties": {
-        "id": "10337",
-        "name": "Xinjiang Tianda Biological Products Company Ltd",
-        "chineseName": "新疆天达生物制品有限公司",
-        "address": "Xinjiang Wujiaqu City Phase II Industrial Park",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Autonomous Region Directly Administered County-Level Administrative Divisions",
-        "district": "Wujiaqu City",
-        "locationType": "office",
-        "scale": "micro",
-        "established": "2021-09-29",
-        "taxpayerId": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           77.26375,
           38.19086
         ]
@@ -972,29 +949,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          76.0364,
-          39.41554
-        ]
-      },
-      "properties": {
-        "id": "10373",
-        "name": "Zhonghai Lanjian Xinjiang Industrial Development Company Ltd",
-        "chineseName": "中海蓝建新疆实业发展有限公司",
-        "address": "Room 2, 108, Qilu Industrial Park, Nanjiang, Shule County, Kashgar, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Kashgar area",
-        "district": "Shule County",
-        "locationType": "office",
-        "scale": "large",
-        "established": "2020-09-09",
-        "taxpayerId": "91511423MA69M0WY8D"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           79.25736,
           41.22432
         ]
@@ -1057,52 +1011,6 @@
         "scale": "medium",
         "established": "2022-09-20",
         "taxpayerId": "91652927MABYYGTYXQ"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          79.14554,
-          41.1892
-        ]
-      },
-      "properties": {
-        "id": "10377",
-        "name": "Longquan Villa",
-        "chineseName": "乌什县龙泉山庄",
-        "address": "Group 3, Village 11, Aotebeixi Township, Wushi County, Aksu Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Aksu region",
-        "district": "Wushi County",
-        "locationType": "farm",
-        "scale": "small",
-        "established": "2019-04-09",
-        "taxpayerId": "916529270722146065"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          79.22028,
-          41.25631
-        ]
-      },
-      "properties": {
-        "id": "10378",
-        "name": "Ushiyu Shangjinji Agricultural Development Company Ltd",
-        "chineseName": "乌什域上金棘农业发展有限公司",
-        "address": "No. 1-2, next to Tuohe Flour Mill, Towankedunqige (13) Village, Aktohai Township, Wushi County, Aksu Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Aksu region",
-        "district": "Wushi County",
-        "locationType": "office",
-        "scale": "small",
-        "established": "2018-06-21",
-        "taxpayerId": "91652927MA780T76XJ"
       }
     },
     {
@@ -1317,29 +1225,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          87.62969,
-          44.11429
-        ]
-      },
-      "properties": {
-        "id": "10388",
-        "name": "Urumqi Nongzhengzhou Animal Husbandry Planting and Breeding Farmers Professional Cooperative",
-        "chineseName": "乌鲁木齐农正州牧种植养殖农民专业合作社",
-        "address": "Huanggong Village, Sandaoba Town, Midong District, Urumqi, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Urumqi",
-        "district": "Midong District",
-        "locationType": "farm",
-        "scale": "small",
-        "established": null,
-        "taxpayerId": "93650109MA77HU8D8C"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           87.64024,
           44.19078
         ]
@@ -1402,29 +1287,6 @@
         "scale": "micro",
         "established": "2008-11-26",
         "taxpayerId": "92650104L19741864H"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          87.68275,
-          43.96048
-        ]
-      },
-      "properties": {
-        "id": "10392",
-        "name": "Urumqi Helixing Breeding Farmers Professional Cooperative",
-        "chineseName": "乌鲁木齐合力兴养殖农民专业合作社",
-        "address": "No. 101, Building 1, No. 88, Lane 21, District 6, Lucaogou Village, Midong District, Urumqi, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Urumqi",
-        "district": "Midong District",
-        "locationType": "farm",
-        "scale": "small",
-        "established": null,
-        "taxpayerId": "93650109MA7ABEE9XN"
       }
     },
     {
@@ -1609,29 +1471,6 @@
         "scale": "micro",
         "established": "2020-10-27",
         "taxpayerId": "92659010MA78Y9779K"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          87.48608,
-          43.78038
-        ]
-      },
-      "properties": {
-        "id": "10401",
-        "name": "Gaocun Aquatic Products Sales Store",
-        "chineseName": "乌鲁木齐市沙依巴克区高村水产销售店",
-        "address": "Shop C1-46, Color Board House Shop, No. 2990, Muxugou North Road, Jiuding Vegetable Market, CI Zone, Shayibak District, Urumqi, Xinjiang (12th Division)",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Urumqi",
-        "district": "Shayibak District",
-        "locationType": "farm",
-        "scale": "micro",
-        "established": null,
-        "taxpayerId": "92659010MA78WYCM0T"
       }
     },
     {
@@ -2145,29 +1984,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          87.48576,
-          43.8715
-        ]
-      },
-      "properties": {
-        "id": "10424",
-        "name": "Urumqi Guangli Industrial Trade CompanyLtd",
-        "chineseName": "乌鲁木齐广利工贸有限责任公司",
-        "address": "No. 186, Beizhan 3rd Road, Economic and Technological Development Zone (Touhunhe District), Urumqi, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Urumqi",
-        "district": "Toutunhe District",
-        "locationType": "office",
-        "scale": "medium",
-        "established": "1996-06-18",
-        "taxpayerId": "916501042999369376"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           87.47111,
           44.01278
         ]
@@ -2260,29 +2076,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          87.48274,
-          43.78101
-        ]
-      },
-      "properties": {
-        "id": "10429",
-        "name": "Jinxin Yongli Aquatic Products Sales Store",
-        "chineseName": "乌鲁木齐沙依巴克区金鑫永利水产品销售行",
-        "address": "Shop A-029, Jiuding Snowy Frozen Food Market, No. 2990, Muxugou North Road, 104th Regiment, Shayibak District, Urumqi, Xinjiang (12th Division)",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Urumqi",
-        "district": "Shayibak District",
-        "locationType": "farm",
-        "scale": "micro",
-        "established": "2022-02-25",
-        "taxpayerId": "92659030MABKYYJW6A"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           87.41737,
           43.99195
         ]
@@ -2345,29 +2138,6 @@
         "scale": "micro",
         "established": "2024-08-28",
         "taxpayerId": "92659030MADY6DY306"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          88.50347,
-          43.46257
-        ]
-      },
-      "properties": {
-        "id": "10433",
-        "name": "Urumqi Green Garden Breeding and Planting Farmers Professional Cooperative",
-        "chineseName": "乌鲁木齐绿嘉园养殖种植农民专业合作社",
-        "address": "No. 30, Wangjiazhuang 6th Team, Donggou Township, Dabancheng District, Urumqi, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Urumqi",
-        "district": "Dabancheng District",
-        "locationType": "farm",
-        "scale": "small",
-        "established": null,
-        "taxpayerId": "93650107MA77Q7AU6Q"
       }
     },
     {
@@ -2490,52 +2260,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          81.25046,
-          37.02867
-        ]
-      },
-      "properties": {
-        "id": "10439",
-        "name": "Yutian County Tuantu Breeding Farmers Professional Cooperative",
-        "chineseName": "于田县团兔养殖农民专业合作社",
-        "address": "Tuzikuzilaike Village, Kharke Township, Yutian County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Yutian County",
-        "locationType": "farm",
-        "scale": "micro",
-        "established": "2019-05-09",
-        "taxpayerId": "93653226MA78C6KX67"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          81.67887,
-          37.00018
-        ]
-      },
-      "properties": {
-        "id": "10440",
-        "name": "Yutian County Baotu Breeding Farmers Professional Cooperative",
-        "chineseName": "于田县宝兔养殖农民专业合作社",
-        "address": "Management Committee of Agricultural and Animal Husbandry Technology Demonstration Park, Yingbag Township, Yutian County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Yutian County",
-        "locationType": "farm",
-        "scale": "micro",
-        "established": "2019-01-04",
-        "taxpayerId": "93653226MA786KBQ77"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           81.63115,
           36.88255
         ]
@@ -2552,52 +2276,6 @@
         "scale": "medium",
         "established": "2020-11-26",
         "taxpayerId": "93653226MA790DFD55"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          81.53018,
-          36.81235
-        ]
-      },
-      "properties": {
-        "id": "10442",
-        "name": "Yutian County Wanglong Breeding Farmers Professional Cooperative",
-        "chineseName": "于田县旺隆养殖农民专业合作社",
-        "address": "No. 428, Bashisaibaq Village, Xianbaibaza Town, Yutian County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Yutian County",
-        "locationType": "farm",
-        "scale": "small",
-        "established": "2020-03-02",
-        "taxpayerId": "93653226MA78KL8G5K"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          81.68556,
-          36.86089
-        ]
-      },
-      "properties": {
-        "id": "10443",
-        "name": "Yuzhixiang Fishery Farmhouse",
-        "chineseName": "于田县木尕拉镇鱼之乡渔业农家院",
-        "address": "No. 280, Guzai Village, Mugala Town, Yutian County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Yutian County",
-        "locationType": "farm",
-        "scale": "micro",
-        "established": "2023-12-18",
-        "taxpayerId": "92653226MAD7BX1C14"
       }
     },
     {
@@ -2667,29 +2345,6 @@
         "scale": "micro",
         "established": "2023-07-21",
         "taxpayerId": "92653226MACQ55NL1D"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          81.25046,
-          37.02867
-        ]
-      },
-      "properties": {
-        "id": "10447",
-        "name": "Yutian County Futu Breeding Farmers Professional Cooperative",
-        "chineseName": "于田县福兔养殖农民专业合作社",
-        "address": "No. 422, Tuzikuzilaike Village, Kharke Township, Yutian County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Yutian County",
-        "locationType": "farm",
-        "scale": "micro",
-        "established": "2019-01-22",
-        "taxpayerId": "93653226MA7883TL5X"
       }
     },
     {
@@ -3709,29 +3364,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          81.92472,
-          43.82532
-        ]
-      },
-      "properties": {
-        "id": "10492",
-        "name": "Yining County Luyou Family Farm",
-        "chineseName": "伊宁县绿优家庭农场",
-        "address": "No. 168, Fishpond, Group 1, Tuohai Village, Dunmazha Town, Yining County, Yili Kazakh Autonomous Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Ili Kazakh Autonomous Prefecture",
-        "district": "Yining County",
-        "locationType": "farm",
-        "scale": "micro",
-        "established": "2020-06-22",
-        "taxpayerId": "92654021MA78T7P46L"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           81.69149,
           43.74729
         ]
@@ -3778,29 +3410,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          81.55802,
-          43.86825
-        ]
-      },
-      "properties": {
-        "id": "10495",
-        "name": "Yining County Rongqing Breeding Company Ltd",
-        "chineseName": "伊宁县荣庆养殖有限公司",
-        "address": "No. 56, Shangmao West Road, Qishituan, Yiqun Town, Yining County, Yili Kazakh Autonomous Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Ili Kazakh Autonomous Prefecture",
-        "district": "Yining County",
-        "locationType": "office",
-        "scale": "micro",
-        "established": "2024-02-02",
-        "taxpayerId": "91659008MADBN4YE8C"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           81.69204,
           43.74929
         ]
@@ -3817,29 +3426,6 @@
         "scale": "medium",
         "established": "2022-03-17",
         "taxpayerId": "93654021MA7LDRWQX6"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          81.48827,
-          43.81632
-        ]
-      },
-      "properties": {
-        "id": "10497",
-        "name": "Yining County Jia Zhiming Breeding Farm",
-        "chineseName": "伊宁县贾志明养殖场",
-        "address": "No. 1, south side of Yiba Road, Yizbektamu Village, Ajewustang Town, Yining County, Yili Kazakh Autonomous Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Ili Kazakh Autonomous Prefecture",
-        "district": "Yining County",
-        "locationType": "farm",
-        "scale": "micro",
-        "established": "2020-12-10",
-        "taxpayerId": "92654021MA790X921U"
       }
     },
     {
@@ -4024,29 +3610,6 @@
         "scale": "small",
         "established": "2018-04-19",
         "taxpayerId": "91654022MA77BYT894"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          82.01429,
-          43.57834
-        ]
-      },
-      "properties": {
-        "id": "10506",
-        "name": "Yili Aodu Agriculture and Animal Husbandry Technology Development Company Ltd",
-        "chineseName": "伊犁奥都农牧科技发展有限公司",
-        "address": "Jingang Circular Economy Industrial Park, 73rd Regiment, Gongliu County, Ili Kazakh Autonomous Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Ili Kazakh Autonomous Prefecture",
-        "district": "Gongliu County",
-        "locationType": "office",
-        "scale": "micro",
-        "established": "2014-05-09",
-        "taxpayerId": null
       }
     },
     {
@@ -4468,29 +4031,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          85.13654,
-          45.69283
-        ]
-      },
-      "properties": {
-        "id": "10526",
-        "name": "Karamay Golden Camel Horse Animal Husbandry Company Ltd",
-        "chineseName": "克拉玛依市金驼龙马畜牧有限公司",
-        "address": "No. 62, Furun 4th Road, Baijiantan District, Karamay City, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Karamay City",
-        "district": "Baijiantan District",
-        "locationType": "office",
-        "scale": "small",
-        "established": "2019-03-25",
-        "taxpayerId": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           84.86925,
           45.59955
         ]
@@ -4668,29 +4208,6 @@
         "scale": "small",
         "established": "2020-06-24",
         "taxpayerId": "91659005MA775QD900"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          87.82133,
-          47.35495
-        ]
-      },
-      "properties": {
-        "id": "10535",
-        "name": "Beitun Gengliang Machinery Leasing Department",
-        "chineseName": "北屯市更亮机械租赁部",
-        "address": "No. 1840-9, Huayang Road, Beitun City, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Autonomous Region Directly Administered County-Level Administrative Divisions",
-        "district": "Beitun City",
-        "locationType": "farm",
-        "scale": "micro",
-        "established": null,
-        "taxpayerId": "92659005MACFA9BB1L"
       }
     },
     {
@@ -4882,29 +4399,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          82.10184,
-          44.91512
-        ]
-      },
-      "properties": {
-        "id": "10544",
-        "name": "Bole Dajiale Food Company Ltd",
-        "chineseName": "博乐市大佳乐食品有限公司",
-        "address": "No. 38, Changping 8th Lane, Wulasta Road, Wutubulage Town, Bole City, Bortala Mongol Autonomous Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Bortala Mongol Autonomous Prefecture",
-        "district": "Bole City",
-        "locationType": "office",
-        "scale": "micro",
-        "established": "2019-02-21",
-        "taxpayerId": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           81.94878,
           44.94674
         ]
@@ -4951,29 +4445,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          82.26609,
-          44.81068
-        ]
-      },
-      "properties": {
-        "id": "10547",
-        "name": "Bole Shixinfang Food Company Ltd",
-        "chineseName": "博乐市心坊食品有限责任公司",
-        "address": "No. 76, North Hongqi Road, Dalet Town, Bole City, Bortala Mongol Autonomous Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Bortala Mongol Autonomous Prefecture",
-        "district": "Bole City",
-        "locationType": "office",
-        "scale": "small",
-        "established": "2015-05-06",
-        "taxpayerId": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           82.44441,
           44.69549
         ]
@@ -4990,29 +4461,6 @@
         "scale": "micro",
         "established": "2018-05-16",
         "taxpayerId": "92652701MADPKEJCXC"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          82.26681,
-          44.81716
-        ]
-      },
-      "properties": {
-        "id": "10549",
-        "name": "Bole Yingxue Calcium Carbonate Manufacturing Company Ltd",
-        "chineseName": "博乐市莹雪碳酸钙制造有限责任公司",
-        "address": "Qingnian Road, Industrial Zone, Bole City, Bortala Mongol Autonomous Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Bortala Mongol Autonomous Prefecture",
-        "district": "Bole City",
-        "locationType": "office",
-        "scale": "small",
-        "established": "2015-09-07",
-        "taxpayerId": null
       }
     },
     {
@@ -5473,29 +4921,6 @@
         "scale": "micro",
         "established": null,
         "taxpayerId": "92652829MADXT9MB35"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          86.73928,
-          42.19726
-        ]
-      },
-      "properties": {
-        "id": "10570",
-        "name": "Bohu County Huangshuigou Wastewater Reed Cultivation Ecological Development Company Ltd",
-        "chineseName": "博湖县黄水沟废水育苇生态开发有限公司",
-        "address": "Huangshuigou, Bohu County, Bayingolin Mongol Autonomous Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Bayingolin Mongol Autonomous Prefecture",
-        "district": "Bohu County",
-        "locationType": "office",
-        "scale": "small",
-        "established": "2002-01-29",
-        "taxpayerId": "91652829734448744D"
       }
     },
     {
@@ -6170,29 +5595,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          89.18597,
-          44.12423
-        ]
-      },
-      "properties": {
-        "id": "10600",
-        "name": "Wang Deyou Breeding Factory",
-        "chineseName": "吉木萨尔县北庭镇王德有养殖厂",
-        "address": "Sanshihu Village, Xishanghu Village, Beiting Town, Jimusar County, Changji Hui Autonomous Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Changji Hui Autonomous Prefecture",
-        "district": "Jimsar County",
-        "locationType": "farm",
-        "scale": "micro",
-        "established": "2017-04-26",
-        "taxpayerId": "92652327MA77E2219D"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           89.23765,
           44.08427
         ]
@@ -6768,52 +6170,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          86.33765,
-          46.2717
-        ]
-      },
-      "properties": {
-        "id": "10626",
-        "name": "Wanqingyuan Family Ranch",
-        "chineseName": "和布克赛尔蒙古自治县万青源家庭牧场",
-        "address": "The former school yard of Baga Utubulag Village, Baga Utubulag Pasture, Hoboksar Mongol Autonomous County, Tacheng Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Tacheng area",
-        "district": "Hoboksar Mongol Autonomous County",
-        "locationType": "farm",
-        "scale": "micro",
-        "established": null,
-        "taxpayerId": "92654226MA7AACEEX3"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          86.00919,
-          46.52523
-        ]
-      },
-      "properties": {
-        "id": "10627",
-        "name": "Weihua Aquatic Products Collection",
-        "chineseName": "和布克赛尔蒙古自治县卫华水产总汇",
-        "address": "No. 204, Zuosutu Road South, Heshituoluoge Town, Hoboksar Mongol Autonomous County, Tacheng Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Tacheng area",
-        "district": "Hoboksar Mongol Autonomous County",
-        "locationType": "farm",
-        "scale": "micro",
-        "established": "2012-05-15",
-        "taxpayerId": "92654226MA77K37G9C"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           86.00919,
           46.52523
         ]
@@ -6837,75 +6193,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          80.0785,
-          37.0808
-        ]
-      },
-      "properties": {
-        "id": "10629",
-        "name": "Hetian Chuxin Food Development Company Ltd",
-        "chineseName": "和田初心食品开发有限公司",
-        "address": "No. 123, Wusitang Village, Qialbag Township, Lop County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Luopu County",
-        "locationType": "office",
-        "scale": "small",
-        "established": "2018-03-30",
-        "taxpayerId": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          79.81684,
-          37.10175
-        ]
-      },
-      "properties": {
-        "id": "10630",
-        "name": "Hotan County Zhongli Livestock Breeding Farmers Professional Cooperative",
-        "chineseName": "和田县众利畜牧养殖农民专业合作社",
-        "address": "No. 82, Kashi Village, Bagqi Town, Hotan County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Hotan County",
-        "locationType": "farm",
-        "scale": "micro",
-        "established": "2020-10-05",
-        "taxpayerId": "93653221MA78X8KJ16"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          79.78682,
-          37.09334
-        ]
-      },
-      "properties": {
-        "id": "10631",
-        "name": "Hotan County Yipitihar Livestock Breeding Farmers Professional Cooperative",
-        "chineseName": "和田县依皮提哈尔畜牧养殖农民专业合作社",
-        "address": "No. 134, Bukanbaier Village, Hotan County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Hotan County",
-        "locationType": "farm",
-        "scale": "micro",
-        "established": "2019-02-27",
-        "taxpayerId": "93653221MA78929846"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           79.90123,
           37.11593
         ]
@@ -6922,29 +6209,6 @@
         "scale": "micro",
         "established": null,
         "taxpayerId": "92653221MACJHBRG1T"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          79.80327,
-          37.22962
-        ]
-      },
-      "properties": {
-        "id": "10633",
-        "name": "Hotan County Guligna Breeding Farmers Professional Cooperative",
-        "chineseName": "和田县古丽格娜养殖农民专业合作社",
-        "address": "Haleta Village, Han'erike Town, Hotan County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Hotan County",
-        "locationType": "farm",
-        "scale": "small",
-        "established": "2020-03-23",
-        "taxpayerId": "93653221MA7843M07U"
       }
     },
     {
@@ -7021,52 +6285,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          80.09296,
-          37.52993
-        ]
-      },
-      "properties": {
-        "id": "10637",
-        "name": "Jintiandi Animal Husbandry and Breeding Farmers Professional Cooperative",
-        "chineseName": "和田县吾宗肖乡金天地畜牧养殖业农民专业合作社",
-        "address": "No. 114, Yaleguzijigedai Village, Wuzongxiao Township, Hotan County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Hotan County",
-        "locationType": "farm",
-        "scale": "micro",
-        "established": "2020-08-03",
-        "taxpayerId": "93653221MA78UQY67Y"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          79.80328,
-          37.22962
-        ]
-      },
-      "properties": {
-        "id": "10638",
-        "name": "Hotan County Wuzongxiao Farmers Professional Cooperative",
-        "chineseName": "和田县吾宗肖农民专业合作社",
-        "address": "No. 39, Han'erike Village, Wuzongxiao Township, Hotan County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Hotan County",
-        "locationType": "farm",
-        "scale": "micro",
-        "established": "2021-01-21",
-        "taxpayerId": "93653221MA792E285L"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           79.92306,
           37.48329
         ]
@@ -7083,29 +6301,6 @@
         "scale": "small",
         "established": null,
         "taxpayerId": "93653221MA7906H37H"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          79.77906,
-          37.06079
-        ]
-      },
-      "properties": {
-        "id": "10640",
-        "name": "Hotan County Dejuyuan Pigeon Industry Farmers Professional Cooperative",
-        "chineseName": "和田县德聚源鸽业农民专业合作社",
-        "address": "Pigeon loft of the seventh team of Jiayi Village, Buzak Township, Hotan County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Hotan County",
-        "locationType": "farm",
-        "scale": "small",
-        "established": "2020-07-16",
-        "taxpayerId": "93653221MA78UE0177"
       }
     },
     {
@@ -7159,29 +6354,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          79.80642,
-          37.0839
-        ]
-      },
-      "properties": {
-        "id": "10643",
-        "name": "Hotan County Haibaier Aquatic Products Breeding Farmers Professional Cooperative",
-        "chineseName": "和田县海拜尔水产品养殖农民专业合作社",
-        "address": "Buzak Village, Wuzongxiao Township, Hotan County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Hotan County",
-        "locationType": "farm",
-        "scale": "small",
-        "established": null,
-        "taxpayerId": "93653221MA775AEC8B"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           80.37647,
           37.7927
         ]
@@ -7198,52 +6370,6 @@
         "scale": "medium",
         "established": "2021-09-22",
         "taxpayerId": "93653221MA79KD811F"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          79.8032,
-          37.0728
-        ]
-      },
-      "properties": {
-        "id": "10645",
-        "name": "Hotan County Mihereban Livestock Breeding Farmers Professional Cooperative",
-        "chineseName": "和田县米合热班畜牧养殖农民专业合作社",
-        "address": "No. 222, Tiekeerike Village, Buzak Township, Hotan County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Hotan County",
-        "locationType": "farm",
-        "scale": "small",
-        "established": "2020-05-30",
-        "taxpayerId": "93653221MA788N7M8D"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          79.81309,
-          37.12661
-        ]
-      },
-      "properties": {
-        "id": "10646",
-        "name": "Hotan County Green Life Breeding Farmers Professional Cooperative",
-        "chineseName": "和田县绿色生命养殖农民专业合作社",
-        "address": "No. 362-1, Aisrikant Village, Bagqi Town, Hotan County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Hotan County",
-        "locationType": "farm",
-        "scale": "micro",
-        "established": null,
-        "taxpayerId": "93653221MA78T2P69N"
       }
     },
     {
@@ -7297,29 +6423,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          79.8032,
-          37.0728
-        ]
-      },
-      "properties": {
-        "id": "10649",
-        "name": "Hotan County Meifunong Livestock Breeding Farmers Professional Cooperative",
-        "chineseName": "和田县美富农畜牧养殖农民专业合作社",
-        "address": "No. 367, Taiti Village, Buzak Township, Hotan County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Hotan County",
-        "locationType": "farm",
-        "scale": "micro",
-        "established": "2020-05-30",
-        "taxpayerId": "93653221MA78R07H8X"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           79.9183,
           37.11868
         ]
@@ -7336,29 +6439,6 @@
         "scale": "small",
         "established": "2010-01-12",
         "taxpayerId": "93653221397717180H"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          79.91534,
-          37.47149
-        ]
-      },
-      "properties": {
-        "id": "10651",
-        "name": "Guangquan Livestock Breeding Farmers Professional Cooperative",
-        "chineseName": "和田县色格孜库勒乡光泉畜牧养殖农民专业合作社",
-        "address": "No. 1052, Towanerike Village, Segezikule Township, Hotan County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Hotan County",
-        "locationType": "farm",
-        "scale": "micro",
-        "established": "2020-03-12",
-        "taxpayerId": "93653221MA78KPKB1X"
       }
     },
     {
@@ -7435,75 +6515,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          79.82173,
-          37.15403
-        ]
-      },
-      "properties": {
-        "id": "10655",
-        "name": "Hotan County Genetic Breeding Farmers Professional Cooperative",
-        "chineseName": "和田县遗传养殖农民专业合作社",
-        "address": "No. 157, Team 1, Outula Bagqi Village, Bagqi Town, Hotan County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Hotan County",
-        "locationType": "farm",
-        "scale": "small",
-        "established": null,
-        "taxpayerId": "93653221MA7933HL25"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          79.79238,
-          37.15031
-        ]
-      },
-      "properties": {
-        "id": "10656",
-        "name": "Hotan County Golden Wing Farmers Professional Cooperative",
-        "chineseName": "和田县金翅养殖农民专业合作社",
-        "address": "No. 505, Xiumabagwan Village, Bagqi Town, Hotan County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Hotan County",
-        "locationType": "farm",
-        "scale": "small",
-        "established": null,
-        "taxpayerId": "93653221MA78MRJF4K"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          79.80327,
-          37.22962
-        ]
-      },
-      "properties": {
-        "id": "10657",
-        "name": "Hotan County Xinbao Livestock Breeding Farmers Professional Cooperative",
-        "chineseName": "和田县鑫宝畜牧养殖农民专业合作社",
-        "address": "No. 148, Timurqi Village, Hanerik Township, Hotan County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Hotan County",
-        "locationType": "farm",
-        "scale": "micro",
-        "established": "2020-03-23",
-        "taxpayerId": "93653221MA78L44AXW"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           80.40236,
           37.78083
         ]
@@ -7527,167 +6538,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          79.83447,
-          37.20787
-        ]
-      },
-      "properties": {
-        "id": "10659",
-        "name": "Hotan County Abbas Livestock Breeding Farmers Professional Cooperative",
-        "chineseName": "和田县阿巴斯畜牧养殖农民专业合作社",
-        "address": "No. 265, Bagwan Village, Han'erike Town, Hotan County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Hotan County",
-        "locationType": "farm",
-        "scale": "small",
-        "established": "2015-07-10",
-        "taxpayerId": "936532213288225690"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          79.86714,
-          37.28039
-        ]
-      },
-      "properties": {
-        "id": "10660",
-        "name": "Hetian Herong Food Distribution Company Ltd",
-        "chineseName": "和田合融食品配送有限公司",
-        "address": "No. H16, He'an New Village, Yingawati Township, Hotan County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Hotan City",
-        "locationType": "office",
-        "scale": "micro",
-        "established": "2016-01-06",
-        "taxpayerId": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          81.67409,
-          36.95809
-        ]
-      },
-      "properties": {
-        "id": "10661",
-        "name": "Hotan New Garden Reservoir Management Company Ltd",
-        "chineseName": "和田地区新园水库管理有限公司",
-        "address": "No. 169, Ayaklanpa Village, Yingbag Township, Yutian County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Yutian County",
-        "locationType": "office",
-        "scale": "small",
-        "established": null,
-        "taxpayerId": "91653226MA790FAN07"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          79.55941,
-          37.36464
-        ]
-      },
-      "properties": {
-        "id": "10662",
-        "name": "Hetian Selvaz Food Development Company Ltd",
-        "chineseName": "和田塞尔瓦孜食品发展有限公司",
-        "address": "No. 32, Daxing Road, Bostan Management Committee, Moyu County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Moyu County",
-        "locationType": "office",
-        "scale": "micro",
-        "established": "2007-01-18",
-        "taxpayerId": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          79.95116,
-          37.13634
-        ]
-      },
-      "properties": {
-        "id": "10663",
-        "name": "Hetian Ningyuan Livestock Company Ltd",
-        "chineseName": "和田宁愿畜牧有限公司",
-        "address": "No. 504, Team 1, Nawag Village, Yiliqi Township, Hotan City, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Hotan City",
-        "locationType": "office",
-        "scale": "small",
-        "established": null,
-        "taxpayerId": "91653201MA78QFJG1H"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          79.51239,
-          37.45575
-        ]
-      },
-      "properties": {
-        "id": "10664",
-        "name": "Hotan Qiaoshe Livestock Breeding Company Ltd",
-        "chineseName": "和田巧手畜牧养殖有限公司",
-        "address": "No. 147, Qiashenbaibaza Village, Yawa Township, Moyu County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Moyu County",
-        "locationType": "office",
-        "scale": "small",
-        "established": "2021-01-30",
-        "taxpayerId": "91653222MA792T665L"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          80.41453,
-          37.82092
-        ]
-      },
-      "properties": {
-        "id": "10665",
-        "name": "Hotan City Wanguan Breeding Farmers Professional Cooperative",
-        "chineseName": "和田市万贯养殖农民专业合作社",
-        "address": "No. 139, Qilalike Village, Akqial Township, Hotan City, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Hotan City",
-        "locationType": "farm",
-        "scale": "small",
-        "established": null,
-        "taxpayerId": "93653201MA7LGJYW62"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           79.90864,
           37.15264
         ]
@@ -7704,52 +6554,6 @@
         "scale": "medium",
         "established": "2004-12-16",
         "taxpayerId": "91653201MABJJ5CLX6"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          79.90909,
-          37.15639
-        ]
-      },
-      "properties": {
-        "id": "10667",
-        "name": "Hotan Xingrong Breeding Farmers Professional Cooperative",
-        "chineseName": "和田市兴荣养殖农民专业合作社",
-        "address": "No. C1-18, Beimu Vegetable Market, No. 2, Tianshan West Road, Hotan City, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Hotan City",
-        "locationType": "farm",
-        "scale": "small",
-        "established": "2013-11-15",
-        "taxpayerId": "93653201080238624F"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          80.01224,
-          37.19824
-        ]
-      },
-      "properties": {
-        "id": "10668",
-        "name": "Hotan Nongle Breeding Farmers Professional Cooperative",
-        "chineseName": "和田市农乐养殖农民专业合作社",
-        "address": "No. 156-1, Kumbag Village, Jia Township, Hotan City, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Hotan City",
-        "locationType": "farm",
-        "scale": "small",
-        "established": null,
-        "taxpayerId": "93653201MA7900PY5Y"
       }
     },
     {
@@ -7987,29 +6791,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          80.02163,
-          37.21435
-        ]
-      },
-      "properties": {
-        "id": "10679",
-        "name": "Hotan City Green Field Breeding Farm",
-        "chineseName": "和田市绿田野养殖场",
-        "address": "No. 164, Kuoqia Village, Jiya Township, Hotan City, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Hotan City",
-        "locationType": "farm",
-        "scale": "micro",
-        "established": null,
-        "taxpayerId": "92653201MACATYQJX9"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           79.8882,
           37.12659
         ]
@@ -8148,52 +6929,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          80.13596,
-          37.05694
-        ]
-      },
-      "properties": {
-        "id": "10686",
-        "name": "Hetian Happy Food Company Ltd",
-        "chineseName": "和田欢乐食品有限公司",
-        "address": "No. 407, Keerkashi Village, Luopu Town, Luopu County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Luopu County",
-        "locationType": "office",
-        "scale": "small",
-        "established": "2018-12-20",
-        "taxpayerId": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          80.01319,
-          37.18199
-        ]
-      },
-      "properties": {
-        "id": "10687",
-        "name": "Hetian Minhuan Food Processing Company Ltd",
-        "chineseName": "和田民欢食品加工有限公司",
-        "address": "No. 88, Xiakemaili Village, Jia Township, Hotan City, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Hotan City",
-        "locationType": "office",
-        "scale": "small",
-        "established": "2019-04-04",
-        "taxpayerId": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           79.52106,
           37.41991
         ]
@@ -8263,29 +6998,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          79.8882,
-          37.12659
-        ]
-      },
-      "properties": {
-        "id": "10691",
-        "name": "Hetian Yuanjiang Agricultural Development Company Ltd",
-        "chineseName": "和田源疆农业发展有限公司",
-        "address": "No. 359, Guangming Village, Xiaoerbag Township, Hotan City, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Hotan City",
-        "locationType": "office",
-        "scale": "medium",
-        "established": "2021-12-22",
-        "taxpayerId": "91653201MA7F3FH927"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           80.14493,
           37.09534
         ]
@@ -8302,98 +7014,6 @@
         "scale": "micro",
         "established": "2016-07-26",
         "taxpayerId": "91653224MA79KDX292"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          79.741,
-          37.25858
-        ]
-      },
-      "properties": {
-        "id": "10693",
-        "name": "Hotan Baiquan Agricultural Technology Development Company Ltd",
-        "chineseName": "和田白泉农业科技开发有限公司",
-        "address": "Group 1, Kerimiqi Village, Karakashi Town, Moyu County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Moyu County",
-        "locationType": "office",
-        "scale": "small",
-        "established": "2013-01-15",
-        "taxpayerId": "91653222057738057F"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          79.6617,
-          37.14769
-        ]
-      },
-      "properties": {
-        "id": "10694",
-        "name": "Hotan Green Animal Husbandry Technology Service Company Ltd",
-        "chineseName": "和田绿牧畜牧技术服务有限公司",
-        "address": "No. 179, Group 2, Karuk Saibag Village, Saibag Township, Moyu County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Moyu County",
-        "locationType": "office",
-        "scale": "small",
-        "established": null,
-        "taxpayerId": "91653222MA78TEK789"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          80.01239,
-          37.0858
-        ]
-      },
-      "properties": {
-        "id": "10695",
-        "name": "Hetianmeiya Breeding Development Company Ltd",
-        "chineseName": "和田美园养殖发展有限公司",
-        "address": "No. 439, Baiheti Lekebaza Village, Buya Township, Lop County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Luopu County",
-        "locationType": "office",
-        "scale": "micro",
-        "established": "2010-03-23",
-        "taxpayerId": "91653224MA7GDRN724"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          80.0172,
-          37.05043
-        ]
-      },
-      "properties": {
-        "id": "10696",
-        "name": "Hetian Meiyu Breeding Company Ltd",
-        "chineseName": "和田美域养殖有限公司",
-        "address": "No. 239, Bagqi Village, Chalbagh Town, Lop County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Luopu County",
-        "locationType": "office",
-        "scale": "small",
-        "established": null,
-        "taxpayerId": "91653224MA79GCP31R"
       }
     },
     {
@@ -8447,29 +7067,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          79.74145,
-          37.07969
-        ]
-      },
-      "properties": {
-        "id": "10699",
-        "name": "Hetian Sapude Liquid Naiti Food Company Ltd",
-        "chineseName": "和田萨普德液耐提食品有限公司",
-        "address": "Next to the Layi Township Government, Hotan County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Hotan County",
-        "locationType": "office",
-        "scale": "micro",
-        "established": "2018-12-03",
-        "taxpayerId": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           79.95107,
           37.11306
         ]
@@ -8486,29 +7083,6 @@
         "scale": "small",
         "established": "2019-07-18",
         "taxpayerId": "91653201MA78F7UK2B"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          79.80328,
-          37.22962
-        ]
-      },
-      "properties": {
-        "id": "10701",
-        "name": "Hotan County Wuzongxiao Farmers Professional Cooperative",
-        "chineseName": "和田县吾宗肖农民专业合作社",
-        "address": "No. 39, Han'erike Village, Wuzongxiao Township, Hotan County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Hotan County",
-        "locationType": "office",
-        "scale": "small",
-        "established": "2021-01-21",
-        "taxpayerId": null
       }
     },
     {
@@ -8608,52 +7182,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          84.83368,
-          43.08886
-        ]
-      },
-      "properties": {
-        "id": "10706",
-        "name": "Hejing County Huamei Breeding Professional Cooperative",
-        "chineseName": "和静县华美养殖专业合作社",
-        "address": "No. 14, Group 3, Chahanwusu Village, Elzait Ulu Township, Hejing County, Bayingolin Mongol Autonomous Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Bayingolin Mongol Autonomous Prefecture",
-        "district": "Hejing County",
-        "locationType": "farm",
-        "scale": "micro",
-        "established": "2021-11-26",
-        "taxpayerId": "93652827MABJJAT77A"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          84.83368,
-          43.08886
-        ]
-      },
-      "properties": {
-        "id": "10707",
-        "name": "Hejing County Huamei Breeding Professional Cooperative",
-        "chineseName": "和静县华美养殖专业合作社",
-        "address": "No. 14, Group 3, Chahanwusu Village, Elzait Ulu Township, Hejing County, Bayingolin Mongol Autonomous Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Bayingolin Mongol Autonomous Prefecture",
-        "district": "Hejing County",
-        "locationType": "office",
-        "scale": "large",
-        "established": "2021-11-26",
-        "taxpayerId": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           86.36697,
           42.26152
         ]
@@ -8693,29 +7221,6 @@
         "scale": "micro",
         "established": "2024-04-25",
         "taxpayerId": "91652827MADJLAA621"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          86.4381,
-          42.13059
-        ]
-      },
-      "properties": {
-        "id": "10710",
-        "name": "Hejing Ruide Food Company Ltd",
-        "chineseName": "和静瑞德食品有限公司",
-        "address": "Group 2, Chahancaikai Village, Xiebinaierbuhu Township, Hejing County, Bayingolin Mongol Autonomous Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Bayingolin Mongol Autonomous Prefecture",
-        "district": "Hejing County",
-        "locationType": "office",
-        "scale": "micro",
-        "established": "2015-02-13",
-        "taxpayerId": null
       }
     },
     {
@@ -8861,29 +7366,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          93.44829,
-          42.6045
-        ]
-      },
-      "properties": {
-        "id": "10717",
-        "name": "Hami Tianxi Husbandry Company Ltd",
-        "chineseName": "哈密市天西牧业有限责任公司",
-        "address": "Xi Gobi National Agricultural Science and Technology Park Breeding Community (Phase II), Hami City, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hami City",
-        "district": "Illinois Area",
-        "locationType": "office",
-        "scale": "small",
-        "established": "2020-03-27",
-        "taxpayerId": "91652201MA776N6XXR"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           93.53773,
           42.85779
         ]
@@ -9022,29 +7504,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          76.16268,
-          39.29212
-        ]
-      },
-      "properties": {
-        "id": "10724",
-        "name": "Kashgar Keluoda Agricultural Technology Company Ltd",
-        "chineseName": "喀什咯咯哒农业科技有限公司",
-        "address": "Village 16, Tazihong Township, Shule County, Kashgar Prefecture, Xinjiang (Animal Husbandry Ecological Park)",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Kashgar area",
-        "district": "Shule County",
-        "locationType": "office",
-        "scale": "medium",
-        "established": "2018-02-23",
-        "taxpayerId": "91653122MA77UKP70B"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           75.94805,
           39.48553
         ]
@@ -9137,29 +7596,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          76.16627,
-          39.14878
-        ]
-      },
-      "properties": {
-        "id": "10729",
-        "name": "Kashibai Yongzhanli Livestock Breeding Company Ltd",
-        "chineseName": "喀什柏永展利畜牧养殖有限公司",
-        "address": "No. 039, Wusitangbuyi Village, Aiermudong Township, Shule County, Kashgar Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Kashgar area",
-        "district": "Shule County",
-        "locationType": "office",
-        "scale": "medium",
-        "established": "2021-09-15",
-        "taxpayerId": "91653122MA79K6Y50A"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           77.16271,
           38.0851
         ]
@@ -9176,29 +7612,6 @@
         "scale": "small",
         "established": null,
         "taxpayerId": "91653124MADH9AMY07"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          75.92024,
-          39.43138
-        ]
-      },
-      "properties": {
-        "id": "10731",
-        "name": "Kashgar Muyang Garden Greening Seedling Breeding Center",
-        "chineseName": "喀什沐杨园林绿化苗木繁育中心",
-        "address": "Village 7, Wukusak Town, Shufu County, Kashgar Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Kashgar area",
-        "district": "Shufu County",
-        "locationType": "farm",
-        "scale": "medium",
-        "established": "2023-08-31",
-        "taxpayerId": "916531215802259187"
       }
     },
     {
@@ -9252,29 +7665,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          76.01365,
-          39.38332
-        ]
-      },
-      "properties": {
-        "id": "10734",
-        "name": "Kashi Baiyun Aquatic Products Company Ltd",
-        "chineseName": "喀什白云水产品有限公司",
-        "address": "No. 15, Tongda Road, Warehousing and Trade Zone, Shandong Logistics Park, Shule County, Kashgar Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Kashgar area",
-        "district": "Shule County",
-        "locationType": "office",
-        "scale": "micro",
-        "established": "2011-08-17",
-        "taxpayerId": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           76.78978,
           39.23027
         ]
@@ -9298,29 +7688,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          75.68001,
-          39.1004
-        ]
-      },
-      "properties": {
-        "id": "10736",
-        "name": "Kashi Chenyu Agricultural Company Ltd",
-        "chineseName": "喀什辰宇农业有限公司",
-        "address": "No. 40, Group 1, Geledillang Village, Tashmilik Township, Shufu County, Kashgar Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Kashgar area",
-        "district": "Shufu County",
-        "locationType": "office",
-        "scale": "micro",
-        "established": "2017-08-15",
-        "taxpayerId": "91653121MA7FD14E74"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           76.16268,
           39.29212
         ]
@@ -9337,29 +7704,6 @@
         "scale": "small",
         "established": "2018-02-23",
         "taxpayerId": "91653122MA77UKP03D"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.2336,
-          39.40976
-        ]
-      },
-      "properties": {
-        "id": "10738",
-        "name": "Kashgar Lukadongyun Special Breeding Company Ltd",
-        "chineseName": "喀什鲁喀东郓特种养殖有限公司",
-        "address": "Factory Building No. 01, Group 2, Langgan (Village 11), Yangdaman Township, Shule County, Kashgar Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Kashgar area",
-        "district": "Shule County",
-        "locationType": "office",
-        "scale": "small",
-        "established": null,
-        "taxpayerId": "91653122MABWC4LKXY"
       }
     },
     {
@@ -9832,29 +8176,6 @@
         ]
       },
       "properties": {
-        "id": "10759",
-        "name": "Tacheng City Jiachen Breeding and Breeding Professional Cooperative",
-        "chineseName": "塔城市佳晨种养殖专业合作社",
-        "address": "Shop 2B-113, Silk Road Cultural Commodity City, Baktu Port Border Residents Market, Tacheng District, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Tacheng area",
-        "district": "Tacheng City",
-        "locationType": "farm",
-        "scale": "small",
-        "established": "2022-08-29",
-        "taxpayerId": "93654201MAC6MN824Y"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          82.80403,
-          46.68104
-        ]
-      },
-      "properties": {
         "id": "10760",
         "name": "Tacheng Yuanshenghe Breeding and Breeding Professional Cooperative",
         "chineseName": "塔城市源盛和种养殖专业合作社",
@@ -9866,29 +8187,6 @@
         "scale": "small",
         "established": "2022-08-29",
         "taxpayerId": "93654201MABW9HXX1A"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          83.10588,
-          46.6919
-        ]
-      },
-      "properties": {
-        "id": "10761",
-        "name": "Koi fishing",
-        "chineseName": "塔城市锦鲤垂钓",
-        "address": "Liusheng Village, Yemenle Township, Tacheng City, Tacheng District, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Tacheng area",
-        "district": "Tacheng City",
-        "locationType": "farm",
-        "scale": "micro",
-        "established": "2018-05-08",
-        "taxpayerId": "92654201MA77Y6D27D"
       }
     },
     {
@@ -9965,29 +8263,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          79.59902,
-          37.48986
-        ]
-      },
-      "properties": {
-        "id": "10765",
-        "name": "Moyu County Harmonious Family Breeding Farmers Professional Cooperative",
-        "chineseName": "墨玉县和谐家庭养殖农民专业合作社",
-        "address": "Bashikerik Village, Karsay Township, Moyu County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Moyu County",
-        "locationType": "farm",
-        "scale": "micro",
-        "established": null,
-        "taxpayerId": "93653222057745679M"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           80.08143,
           37.66561
         ]
@@ -10004,29 +8279,6 @@
         "scale": "micro",
         "established": "2024-04-18",
         "taxpayerId": "92653222MA78PHY493"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          79.533,
-          37.41102
-        ]
-      },
-      "properties": {
-        "id": "10767",
-        "name": "Moyu County Tagedun Agriculture",
-        "chineseName": "墨玉县塔格墩农牧林农民专业合作社",
-        "address": "No. 109, Group 4, Tagedun Village, Karsai Town, Moyu County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Moyu County",
-        "locationType": "farm",
-        "scale": "small",
-        "established": "2018-02-13",
-        "taxpayerId": "93653222MA77UGX89K"
       }
     },
     {
@@ -10103,29 +8355,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          79.5425,
-          37.40259
-        ]
-      },
-      "properties": {
-        "id": "10771",
-        "name": "Moyu County Xinsu-Anhui Poultry Farmers Professional Cooperative",
-        "chineseName": "墨玉县新苏皖禽业农民专业合作社",
-        "address": "No. 168, Bashierike Village, Yawa Township, Moyu County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Moyu County",
-        "locationType": "farm",
-        "scale": "large",
-        "established": "2020-03-30",
-        "taxpayerId": "93653222MA78LLW37U"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           80.04327,
           37.62185
         ]
@@ -10142,29 +8371,6 @@
         "scale": "medium",
         "established": "2022-06-21",
         "taxpayerId": "93653222MABRDY89XB"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          79.59993,
-          37.24167
-        ]
-      },
-      "properties": {
-        "id": "10773",
-        "name": "Moyu County Hands-on Breeding Farmers Professional Cooperative",
-        "chineseName": "墨玉县牵手养殖农民专业合作社",
-        "address": "Qiaokanjilega Village, Zhawa Town, Moyu County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Moyu County",
-        "locationType": "farm",
-        "scale": "small",
-        "established": "2018-06-05",
-        "taxpayerId": "93653222MA780ACJ6A"
       }
     },
     {
@@ -10326,29 +8532,6 @@
         "scale": "small",
         "established": "2015-05-28",
         "taxpayerId": "936532223288943433"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          79.6375,
-          37.22731
-        ]
-      },
-      "properties": {
-        "id": "10781",
-        "name": "Moyu County Golden Pheasant Breeding Farmers Professional Cooperative",
-        "chineseName": "墨玉县金雉鸡养殖农民专业合作社",
-        "address": "Humudan Village, Aksaray Township, Moyu County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Moyu County",
-        "locationType": "farm",
-        "scale": "micro",
-        "established": "2018-11-08",
-        "taxpayerId": "93653222MA7851EG7C"
       }
     },
     {
@@ -11391,29 +9574,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          76.58381,
-          39.12516
-        ]
-      },
-      "properties": {
-        "id": "10827",
-        "name": "Yuepuhu County Kawaii Cattle Breeding Farmers Professional Cooperative",
-        "chineseName": "岳普湖县可爱牛养殖农民专业合作社",
-        "address": "No. 08, the first ten small shops in the village committee of 14th village, 3rd group, Aqike Township, Yuepuhu County, Kashgar Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Kashgar area",
-        "district": "Yuepuhu County",
-        "locationType": "farm",
-        "scale": "micro",
-        "established": "2023-06-06",
-        "taxpayerId": "93653128MACK4XWJ8G"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           77.00414,
           39.12324
         ]
@@ -11453,52 +9613,6 @@
         "scale": "micro",
         "established": "2023-07-14",
         "taxpayerId": "92653128MACQ1L4D7P"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          77.00414,
-          39.12324
-        ]
-      },
-      "properties": {
-        "id": "10830",
-        "name": "Yuepuhu County Huitai Animal Husbandry Breeding Company Ltd",
-        "chineseName": "岳普湖县汇泰畜牧养殖有限公司",
-        "address": "A village in Tieremu Town, Yupuhu County, Kashgar Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Kashgar area",
-        "district": "Yuepuhu County",
-        "locationType": "office",
-        "scale": "small",
-        "established": "2015-03-26",
-        "taxpayerId": "91653128072206550A"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.73383,
-          39.24807
-        ]
-      },
-      "properties": {
-        "id": "10831",
-        "name": "Yuepuhu County Furun Animal Husbandry Company Ltd",
-        "chineseName": "岳普湖县福润牧业有限公司",
-        "address": "A village in Yuepuhu Township, Yuepuhu County, Kashgar Prefecture, Xinjiang Uygur Autonomous Region (next to the substation)",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Kashgar area",
-        "district": "Yuepuhu County",
-        "locationType": "office",
-        "scale": "large",
-        "established": "2004-03-18",
-        "taxpayerId": "916531283287378742"
       }
     },
     {
@@ -11591,29 +9705,6 @@
         "scale": "micro",
         "established": "2016-04-01",
         "taxpayerId": "93653128MA775U224B"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.78288,
-          39.26011
-        ]
-      },
-      "properties": {
-        "id": "10836",
-        "name": "Yuepuhu Qingmu Agricultural Technology Company Ltd",
-        "chineseName": "岳普湖青慕农业科技有限公司",
-        "address": "No. 1-3, Xinkuang Road, Taiyue Industrial Park, Yuepuhu County, Kashgar, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Kashgar area",
-        "district": "Yuepuhu County",
-        "locationType": "office",
-        "scale": "large",
-        "established": "2019-03-21",
-        "taxpayerId": null
       }
     },
     {
@@ -12035,29 +10126,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          86.11295,
-          41.80766
-        ]
-      },
-      "properties": {
-        "id": "10855",
-        "name": "Bazhou Tongheng Muwang Livestock Technology Service Company Ltd",
-        "chineseName": "巴州同恒牧旺畜牧技术服务有限公司",
-        "address": "No. 330, Group 3, Kalbag Village, Yingxia Township, Korla City, Bayingolin Mongol Autonomous Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Bayingolin Mongol Autonomous Prefecture",
-        "district": "Korla City",
-        "locationType": "office",
-        "scale": "small",
-        "established": "2022-03-11",
-        "taxpayerId": "91652801MA7KBN9AXU"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           126.62639,
           45.61006
         ]
@@ -12242,29 +10310,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          86.11295,
-          41.80766
-        ]
-      },
-      "properties": {
-        "id": "10864",
-        "name": "Bazhou Tongheng Muwang Livestock Technology Service Company Ltd",
-        "chineseName": "巴州同恒牧旺畜牧技术服务有限公司",
-        "address": "No. 330, Group 3, Kalbag Village, Yingxia Township, Korla City, Bayingolin Mongol Autonomous Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Bayingolin Mongol Autonomous Prefecture",
-        "district": "Korla City",
-        "locationType": "office",
-        "scale": "small",
-        "established": "2022-03-11",
-        "taxpayerId": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           86.14632,
           41.76145
         ]
@@ -12304,29 +10349,6 @@
         "scale": "small",
         "established": "2021-09-22",
         "taxpayerId": "93652801MA79KD0J8W"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          86.1767,
-          41.7792
-        ]
-      },
-      "properties": {
-        "id": "10867",
-        "name": "Bazhou Yuetong Industry and Trade Company Ltd",
-        "chineseName": "巴州跃通工贸有限责任公司",
-        "address": "South side of Tianshan West Road, Private Experimental Zone, Shangku High-tech Industrial Development Zone, Korla City, Bayingolin Mongol Autonomous Prefecture, Xinjiang, and north side of Shibatuanqu",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Bayingolin Mongol Autonomous Prefecture",
-        "district": "Korla City",
-        "locationType": "office",
-        "scale": "micro",
-        "established": "2015-03-25",
-        "taxpayerId": null
       }
     },
     {
@@ -12403,29 +10425,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.64756,
-          38.87446
-        ]
-      },
-      "properties": {
-        "id": "10871",
-        "name": "Bachu County Anlu Technology Service Company Ltd",
-        "chineseName": "巴楚县安鹿技术服务有限公司",
-        "address": "Shop No. 1, 1st Floor, Building No. 4, Fengqing Street, North Side of Renmin Road, Bachu County, Kashgar, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Kashgar area",
-        "district": "Bachu County",
-        "locationType": "office",
-        "scale": "micro",
-        "established": "2013-10-21",
-        "taxpayerId": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           77.60336,
           39.08703
         ]
@@ -12488,29 +10487,6 @@
         "scale": "small",
         "established": null,
         "taxpayerId": "93653130MA78T7RT34"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          78.54104,
-          39.82645
-        ]
-      },
-      "properties": {
-        "id": "10875",
-        "name": "Bachu County Huixin Agriculture and Animal Husbandry Technology Company Ltd",
-        "chineseName": "巴楚县汇鑫农牧科技有限公司",
-        "address": "South side of Chuangye Avenue, Bachu Town Industrial Park, Bachu County, Kashgar, Xinjiang (west side of Planning 3rd Road)",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Kashgar area",
-        "district": "Bachu County",
-        "locationType": "office",
-        "scale": "small",
-        "established": "2011-12-30",
-        "taxpayerId": "91653130313416402A"
       }
     },
     {
@@ -12633,29 +10609,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          78.69084,
-          39.86741
-        ]
-      },
-      "properties": {
-        "id": "10881",
-        "name": "Bachu County Pastoral Breeding Farmers Professional Cooperative",
-        "chineseName": "巴楚县田园养殖农民专业合作社",
-        "address": "No. 57, Group 2, Ayakno Village, Dolaitibage Township, Bachu County, Kashgar Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Kashgar area",
-        "district": "Bachu County",
-        "locationType": "farm",
-        "scale": "micro",
-        "established": null,
-        "taxpayerId": "93653130MA78PPXD89"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           78.42708,
           39.80049
         ]
@@ -12672,29 +10625,6 @@
         "scale": "micro",
         "established": "2012-11-05",
         "taxpayerId": "93653130057715920U"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          78.57028,
-          39.83583
-        ]
-      },
-      "properties": {
-        "id": "10883",
-        "name": "Bachu County Xiujia Building Decoration Design Engineering Company Ltd",
-        "chineseName": "巴楚县秀家建筑装饰设计工程有限公司",
-        "address": "Group 2, Norbeixi Village, Anakule Township, Bachu County, Kashgar Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Kashgar area",
-        "district": "Bachu County",
-        "locationType": "office",
-        "scale": "micro",
-        "established": "2018-08-16",
-        "taxpayerId": "91653130MA7804PU2X"
       }
     },
     {
@@ -13737,29 +11667,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          82.96559,
-          41.72225
-        ]
-      },
-      "properties": {
-        "id": "10929",
-        "name": "Kuqa Shuangsheng Wanfu Livestock and Poultry Farmers Professional Cooperative",
-        "chineseName": "库车双生万福畜禽养殖农民专业合作社",
-        "address": "No. 059, Group 5, Wukutoglak Village, Alahag Town, Kuqa City, Aksu Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Aksu region",
-        "district": "Kuqa City",
-        "locationType": "farm",
-        "scale": "small",
-        "established": null,
-        "taxpayerId": "93652902MA78XRWY2T"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           82.90419,
           41.52601
         ]
@@ -13822,29 +11729,6 @@
         "scale": "micro",
         "established": "2020-12-23",
         "taxpayerId": "92652902MA791E7J1H"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          82.92025,
-          41.73304
-        ]
-      },
-      "properties": {
-        "id": "10933",
-        "name": "Kuche City Delicious Milk Farming Family Farm",
-        "chineseName": "库车市可口奶养殖家庭农场",
-        "address": "No. 20, Group 3, Azhemaili Community, Yixihala Town, Kuche City, Aksu Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Aksu region",
-        "district": "Kuqa City",
-        "locationType": "farm",
-        "scale": "small",
-        "established": null,
-        "taxpayerId": "91652902MA79HCYXXN"
       }
     },
     {
@@ -14013,52 +11897,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          80.24972,
-          41.2323
-        ]
-      },
-      "properties": {
-        "id": "10941",
-        "name": "Kuqa Water Investment Group Company Ltd",
-        "chineseName": "库车水务投资集团有限公司",
-        "address": "No. 6 Youyi Road, Kuche County, Aksu Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Aksu region",
-        "district": "Kuqa City",
-        "locationType": "office",
-        "scale": "small",
-        "established": "2014-10-16",
-        "taxpayerId": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          82.90297,
-          41.46596
-        ]
-      },
-      "properties": {
-        "id": "10942",
-        "name": "Kuqa Yang'an Livestock and Poultry Breeding Family Farm",
-        "chineseName": "库车洋安畜禽养殖家庭农场",
-        "address": "No. 050, Group 2, Cang Village, Qiman Town, Kuche City, Aksu Prefecture, Xinjiang.",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Aksu region",
-        "district": "Kuqa City",
-        "locationType": "farm",
-        "scale": "micro",
-        "established": "2023-10-10",
-        "taxpayerId": "91652902MAD11LEE8R"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           83.59672,
           41.17977
         ]
@@ -14098,29 +11936,6 @@
         "scale": "micro",
         "established": "2023-06-02",
         "taxpayerId": "92650422MACLDFPL07"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          88.84875,
-          42.79275
-        ]
-      },
-      "properties": {
-        "id": "10945",
-        "name": "Toksunjinmu Ecological Breeding Farmers Professional Cooperative",
-        "chineseName": "托克逊金穆生态养殖农民专业合作社",
-        "address": "No. 3-9-114, Group 2, Dadi Village, Xia Town, Toksun County, Turpan City, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Turpan",
-        "district": "Toksun County",
-        "locationType": "farm",
-        "scale": "medium",
-        "established": "2020-12-29",
-        "taxpayerId": "93650422MA791KDG1Y"
       }
     },
     {
@@ -14213,29 +12028,6 @@
         "scale": "small",
         "established": null,
         "taxpayerId": "93652926MA7AAT2R6G"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          81.69652,
-          41.89773
-        ]
-      },
-      "properties": {
-        "id": "10950",
-        "name": "Baicheng County Salt Mountain Breeding Farmers Professional Cooperative",
-        "chineseName": "拜城县盐山养殖农民专业合作社",
-        "address": "No. 120, Group 2, Tuzibeixi Village, Baicheng Town, Baicheng County, Aksu Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Aksu region",
-        "district": "Baicheng County",
-        "locationType": "farm",
-        "scale": "micro",
-        "established": "2020-04-28",
-        "taxpayerId": "93652926MA78NY1H0L"
       }
     },
     {
@@ -14588,29 +12380,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          83.75201,
-          43.42338
-        ]
-      },
-      "properties": {
-        "id": "10966",
-        "name": "Xinyuan County Heizhengping Family Animal Husbandry Breeding Base",
-        "chineseName": "新源县黑正平家庭畜牧养殖基地",
-        "address": "No. 002, Lane 1, Group 4, Shahawutekele Village, Ajeletuobei Town, Xinyuan County, Yili Kazakh Autonomous Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Ili Kazakh Autonomous Prefecture",
-        "district": "Xinyuan County",
-        "locationType": "farm",
-        "scale": "small",
-        "established": "2013-05-07",
-        "taxpayerId": "916540250981784711"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           77.29355,
           37.84561
         ]
@@ -14696,29 +12465,6 @@
         "scale": "large",
         "established": "2017-10-23",
         "taxpayerId": "91654028MA77P5J58F"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          86.24729,
-          41.7157
-        ]
-      },
-      "properties": {
-        "id": "10971",
-        "name": "Xinjiang Zhongtai Xingwei Biotechnology Company Ltd",
-        "chineseName": "新疆中泰兴苇生物科技有限公司",
-        "address": "Room 312, Incubation Center, Management Committee, No. 1866, Development Avenue, Korla Economic and Technological Development Zone, Bayingolin Mongol Autonomous Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Bayingolin Mongol Autonomous Prefecture",
-        "district": "Korla Economic and Technological Development Zone",
-        "locationType": "office",
-        "scale": "large",
-        "established": "2020-10-21",
-        "taxpayerId": null
       }
     },
     {
@@ -14864,29 +12610,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          79.2295,
-          41.23697
-        ]
-      },
-      "properties": {
-        "id": "10978",
-        "name": "Xinjiang Yishengda Agricultural Comprehensive Development Company Ltd",
-        "chineseName": "新疆亿盛达农业综合开发有限公司",
-        "address": "Shop No. 5, Building 8, Park City Community, No. 96, Tuanjie Road, Wushi County, Aksu Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Aksu region",
-        "district": "Wushi County",
-        "locationType": "office",
-        "scale": "small",
-        "established": "2023-03-02",
-        "taxpayerId": "91652927MACBBRNP3D"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           81.27792,
           43.94869
         ]
@@ -14979,29 +12702,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          87.37188,
-          43.89202
-        ]
-      },
-      "properties": {
-        "id": "10983",
-        "name": "Xinjiang Yisheng Agricultural Technology Company Ltd",
-        "chineseName": "新疆余生农业科技有限公司",
-        "address": "No. 2201, Tou Tun He Road, Sanping Farm, Economic and Technological Development Zone (Tou Tun He District), Urumqi City (12th Division), Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Urumqi",
-        "district": "Toutunhe District",
-        "locationType": "office",
-        "scale": "micro",
-        "established": "2023-06-08",
-        "taxpayerId": "91650104MACMGWQX9B"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           126.62639,
           45.61006
         ]
@@ -15017,29 +12717,6 @@
         "locationType": "office",
         "scale": "micro",
         "established": "2016-09-21",
-        "taxpayerId": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          86.05199,
-          44.32646
-        ]
-      },
-      "properties": {
-        "id": "10985",
-        "name": "Xinjiang Jiayize Animal Husbandry Technology Company Ltd",
-        "chineseName": "新疆佳益泽畜牧科技有限公司",
-        "address": "No. 15-A4, Wuyidong Road, Shihezi City, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Autonomous Region Directly Administered County-Level Administrative Divisions",
-        "district": "Shihezi City",
-        "locationType": "office",
-        "scale": "micro",
-        "established": "2023-03-27",
         "taxpayerId": null
       }
     },
@@ -15301,75 +12978,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.55555,
-          37.86707
-        ]
-      },
-      "properties": {
-        "id": "10998",
-        "name": "Xinjiang Chuangjing Agriculture and Animal Husbandry Development Company Ltd",
-        "chineseName": "新疆创景农牧发展有限责任公司",
-        "address": "No. 2 Sheep Fattening Base, Luoke Township Animal Husbandry Park, Yecheng County, Kashgar Region, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Kashgar area",
-        "district": "Yecheng County",
-        "locationType": "office",
-        "scale": "small",
-        "established": null,
-        "taxpayerId": "91653126MADKXMN99F"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          79.108,
-          39.86281
-        ]
-      },
-      "properties": {
-        "id": "10999",
-        "name": "Xinjiang Qianhai Tiankun Biotechnology Company Ltd",
-        "chineseName": "新疆前海天昆生物科技股份有限公司",
-        "address": "No. 5 Xing'an Street, Tumushuke City, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Autonomous Region Directly Administered County-Level Administrative Divisions",
-        "district": "Tumushuke City",
-        "locationType": "office",
-        "scale": "small",
-        "established": "2017-04-19",
-        "taxpayerId": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          86.4253,
-          48.06511
-        ]
-      },
-      "properties": {
-        "id": "11000",
-        "name": "Xinjiang Beiyuanchun Zhonglian Animal Husbandry Technology Company Ltd",
-        "chineseName": "新疆北园春众联畜牧科技有限责任公司",
-        "address": "Room 306, 3rd Floor, Veterans Affairs Bureau, No. 28 Renmin Road, Akqi Town, Habahe County, Altay Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Altay region",
-        "district": "Habahe County",
-        "locationType": "office",
-        "scale": "medium",
-        "established": null,
-        "taxpayerId": "91654324MA795WR63E"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           86.86855,
           47.70958
         ]
@@ -15462,29 +13070,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          78.95842,
-          39.74096
-        ]
-      },
-      "properties": {
-        "id": "11005",
-        "name": "Xinjiang Boheng Animal Husbandry Development Company Ltd",
-        "chineseName": "新疆博恒牧业发展有限公司",
-        "address": "No. 1-1, 3rd Company, 49th Regiment, Hai'an Town, Tumushuke City, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Autonomous Region Directly Administered County-Level Administrative Divisions",
-        "district": "Tumushuke City",
-        "locationType": "office",
-        "scale": "large",
-        "established": "2022-08-19",
-        "taxpayerId": "91659003MABX3LDJ9D"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           75.83607,
           39.49956
         ]
@@ -15508,52 +13093,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          82.33733,
-          44.87057
-        ]
-      },
-      "properties": {
-        "id": "11007",
-        "name": "Xinjiang Shuanghe Huilongquan Ecological Fisheries Company Ltd",
-        "chineseName": "新疆双河市汇龙泉生态渔业有限责任公司",
-        "address": "The second office of the second company of the 87th Regiment in Shuanghe City, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Autonomous Region Directly Administered County-Level Administrative Divisions",
-        "district": "Shuanghe City",
-        "locationType": "office",
-        "scale": "medium",
-        "established": "2024-04-21",
-        "taxpayerId": "91659007MADJHRXN21"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          87.61633,
-          43.79496
-        ]
-      },
-      "properties": {
-        "id": "11008",
-        "name": "Xinjiang Gu Zai Li Clothing Company Ltd",
-        "chineseName": "新疆古再丽服饰有限公司",
-        "address": "Room 1201C, 12th Floor, Building 1, Wanguo Culture Building, No. 160 Xinhua South Road, Tianshan District, Urumqi, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Urumqi",
-        "district": "Tianshan District",
-        "locationType": "office",
-        "scale": "small",
-        "established": "2022-04-13",
-        "taxpayerId": "91650102MA78LHX329"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           89.54435,
           42.98848
         ]
@@ -15570,29 +13109,6 @@
         "scale": "small",
         "established": null,
         "taxpayerId": "91650402MADRBJA27X"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          84.71754,
-          44.4231
-        ]
-      },
-      "properties": {
-        "id": "11010",
-        "name": "Xinjiang Ancient Hazelnut Seedling Farmers’ Professional Cooperative",
-        "chineseName": "新疆古耕榛子苗木农民专业合作社",
-        "address": "North of Xinyilian Railway, Gaoquan Town, Wusu City, Tacheng District, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Tacheng area",
-        "district": "Wusu City",
-        "locationType": "farm",
-        "scale": "small",
-        "established": "2019-09-04",
-        "taxpayerId": "93654202MA78H06918"
       }
     },
     {
@@ -15738,29 +13254,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          79.89729,
-          37.0708
-        ]
-      },
-      "properties": {
-        "id": "11017",
-        "name": "Xinjiang Weizhilian Food Development Company Ltd",
-        "chineseName": "新疆味之恋食品发展有限公司",
-        "address": "No. 530, Dun Village, Tushala Town, Hotan City, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Hotan City",
-        "locationType": "office",
-        "scale": "medium",
-        "established": "2021-08-13",
-        "taxpayerId": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           86.03727,
           44.31667
         ]
@@ -15784,52 +13277,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          78.28985,
-          37.58407
-        ]
-      },
-      "properties": {
-        "id": "11019",
-        "name": "Xinjiang Pinwo Food Technology Company Ltd",
-        "chineseName": "新疆品沃食品科技有限公司",
-        "address": "Planning Road 3, Anhui (Three Gorges) Pishan County Industrial Park, Hotan District, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Pishan County",
-        "locationType": "office",
-        "scale": "medium",
-        "established": "2018-01-30",
-        "taxpayerId": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          93.55088,
-          42.86288
-        ]
-      },
-      "properties": {
-        "id": "11020",
-        "name": "Xinjiang Hami Melon Township Agricultural Group Company Ltd",
-        "chineseName": "新疆哈密瓜乡农业集团股份有限公司",
-        "address": "South side of Longquan Road, Hongxing Third Field, Yishou Road, Yizhou District, Hami City, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hami City",
-        "district": "Illinois Area",
-        "locationType": "office",
-        "scale": "micro",
-        "established": "2011-10-08",
-        "taxpayerId": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           87.6116,
           44.04281
         ]
@@ -15846,29 +13293,6 @@
         "scale": "small",
         "established": "2024-07-26",
         "taxpayerId": "91650109MADTG1B07M"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          87.63901,
-          43.92667
-        ]
-      },
-      "properties": {
-        "id": "11022",
-        "name": "Xinjiang Yuyuan Zhongxin Aquatic Science and Technology Company Ltd",
-        "chineseName": "新疆域源众鑫水产科技有限公司",
-        "address": "No. 22, East Lane 1, Xizhuangzi Village, Yangmaogong North Road, Midong District, Urumqi, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Urumqi",
-        "district": "Midong District",
-        "locationType": "office",
-        "scale": "small",
-        "established": "2018-03-01",
-        "taxpayerId": "91650109MA77UPAR28"
       }
     },
     {
@@ -15991,29 +13415,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          86.03361,
-          44.34184
-        ]
-      },
-      "properties": {
-        "id": "11028",
-        "name": "Xinjiang Tianbao Kangdi Biotechnology Company Ltd",
-        "chineseName": "新疆天宝康地生物技术有限公司",
-        "address": "No. 758-2, Guangming Road, Beiquan Town, Shihezi City, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Autonomous Region Directly Administered County-Level Administrative Divisions",
-        "district": "Shihezi City",
-        "locationType": "office",
-        "scale": "small",
-        "established": "2015-05-05",
-        "taxpayerId": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           82.19934,
           43.86569
         ]
@@ -16122,29 +13523,6 @@
         "scale": "small",
         "established": null,
         "taxpayerId": "91654221MABJJB4E88"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          87.65286,
-          43.766
-        ]
-      },
-      "properties": {
-        "id": "11034",
-        "name": "Xinjiang wedding craftsman wedding planning Company Ltd",
-        "chineseName": "新疆婚匠婚礼策划有限公司",
-        "address": "No. 23, 1st Floor, Building 16, Heshun Garden Phase II, No. 268, Jiuqu Street, Tuanjie East Road, Tianshan District, Urumqi, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Urumqi",
-        "district": "Tianshan District",
-        "locationType": "office",
-        "scale": "micro",
-        "established": "2014-05-15",
-        "taxpayerId": "91650102MA78TGFH3J"
       }
     },
     {
@@ -16474,29 +13852,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          88.01679,
-          43.9392
-        ]
-      },
-      "properties": {
-        "id": "11050",
-        "name": "Xinjiang Zhongbinxiang Planting and Breeding Farmers Professional Cooperative",
-        "chineseName": "新疆忠宾祥种植养殖农民专业合作社",
-        "address": "No. 8, Heigou, Dushanzi Village, Baiyanghe Kazakh National Township, Midong District, Urumqi, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Urumqi",
-        "district": "Midong District",
-        "locationType": "farm",
-        "scale": "medium",
-        "established": "2020-10-09",
-        "taxpayerId": "93650109MA78XACE5F"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           82.03497,
           41.74325
         ]
@@ -16566,29 +13921,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          80.3454,
-          37.64402
-        ]
-      },
-      "properties": {
-        "id": "11054",
-        "name": "Xinjiang Revitalization Agriculture",
-        "chineseName": "新疆振兴农林牧渔产业融合发展有限公司",
-        "address": "No. 8, Baza Village, Tawakule Township, Hotan County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Hotan County",
-        "locationType": "office",
-        "scale": "large",
-        "established": "2023-03-27",
-        "taxpayerId": "91653221MACDBRGN44"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           87.33255,
           44.00767
         ]
@@ -16605,29 +13937,6 @@
         "scale": "small",
         "established": "2014-08-23",
         "taxpayerId": "91650000MA77J3JF1T"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          84.85084,
-          45.6339
-        ]
-      },
-      "properties": {
-        "id": "11056",
-        "name": "Xinjiang Xinshen Agriculture and Animal Husbandry Technology Company Ltd",
-        "chineseName": "新疆新申农牧科技有限公司",
-        "address": "No. 612-1, Beihuan Road, Karamay District, Karamay City, Xinjiang (No. 4, 1st Floor, Building 1, Jiuding Agricultural Products Wholesale Market)",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Karamay City",
-        "district": "Karamay District",
-        "locationType": "office",
-        "scale": "micro",
-        "established": "2011-07-14",
-        "taxpayerId": null
       }
     },
     {
@@ -16681,29 +13990,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          87.54701,
-          44.17141
-        ]
-      },
-      "properties": {
-        "id": "11059",
-        "name": "Xinjiang Xukang Breeding Company Ltd",
-        "chineseName": "新疆旭康养殖有限公司",
-        "address": "2nd Floor, No. 1099, North 1st West Street, North Industrial Park, Wujiaqu Economic and Technological Development Zone, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Autonomous Region Directly Administered County-Level Administrative Divisions",
-        "district": "Wujiaqu City",
-        "locationType": "office",
-        "scale": "medium",
-        "established": "2023-10-19",
-        "taxpayerId": "91659004MA78KAXB3H"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           88.09319,
           47.26749
         ]
@@ -16727,29 +14013,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          83.75201,
-          43.42338
-        ]
-      },
-      "properties": {
-        "id": "11061",
-        "name": "Xinjiang Kunlun Cowherd Agriculture and Animal Husbandry Technology Development Company Ltd",
-        "chineseName": "新疆昆仑牛郎农牧科技开发有限公司",
-        "address": "The first plot of land on the south side of the 3km section of G578 National Road in Shahawutkele Village, Ajeletuobei Town, Xinyuan County, Yili Kazakh Autonomous Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Ili Kazakh Autonomous Prefecture",
-        "district": "Xinyuan County",
-        "locationType": "office",
-        "scale": "small",
-        "established": "2013-05-07",
-        "taxpayerId": "91654025MA79HRN51C"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           87.53862,
           47.54133
         ]
@@ -16766,29 +14029,6 @@
         "scale": "large",
         "established": "2021-08-13",
         "taxpayerId": "91654301MA79HUYH81"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          93.51674,
-          42.81046
-        ]
-      },
-      "properties": {
-        "id": "11063",
-        "name": "Xinjiang Yuequan Food Company Ltd",
-        "chineseName": "新疆月泉食品有限公司",
-        "address": "No. 12, Group 2, Jiulongshu Village, Huicheng Township, Yizhou District, Hami City, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hami City",
-        "district": "Illinois Area",
-        "locationType": "office",
-        "scale": "micro",
-        "established": "2016-06-15",
-        "taxpayerId": null
       }
     },
     {
@@ -16835,29 +14075,6 @@
         "scale": "medium",
         "established": "2008-07-31",
         "taxpayerId": "91659002MABKXF0W8P"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          77.00224,
-          38.38151
-        ]
-      },
-      "properties": {
-        "id": "11066",
-        "name": "Xinjiang Zhenggan Breeding Farmers Professional Cooperative",
-        "chineseName": "新疆正感养殖农民专业合作社",
-        "address": "No. 01, Group 3, Sailangan (19), Village, Qiarek Town, Shache County, Kashgar Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Kashgar area",
-        "district": "Shache County",
-        "locationType": "farm",
-        "scale": "small",
-        "established": null,
-        "taxpayerId": "93653125MA79LWJJ62"
       }
     },
     {
@@ -16950,29 +14167,6 @@
         "scale": "micro",
         "established": "2012-05-18",
         "taxpayerId": "91652923MA77YUE61N"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          84.64788,
-          44.64754
-        ]
-      },
-      "properties": {
-        "id": "11071",
-        "name": "Xinjiang Wohai Livestock Breeding Company Ltd",
-        "chineseName": "新疆沃海畜牧养殖有限公司",
-        "address": "No. 99, Daquan Village, Toutai Township, Wusu City, Tacheng District, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Tacheng area",
-        "district": "Wusu City",
-        "locationType": "office",
-        "scale": "small",
-        "established": "2017-03-10",
-        "taxpayerId": "91650105MA77AUC5X2"
       }
     },
     {
@@ -17417,52 +14611,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          86.09463,
-          41.81212
-        ]
-      },
-      "properties": {
-        "id": "11091",
-        "name": "Xinjiang Aideer Breeding Farmers Professional Cooperative",
-        "chineseName": "新疆爱得尔养殖农民专业合作社",
-        "address": "Koshbag Village, Qialbag Township, Korla City, Bayingolin Mongol Autonomous Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Bayingolin Mongol Autonomous Prefecture",
-        "district": "Korla City",
-        "locationType": "farm",
-        "scale": "medium",
-        "established": "2019-09-24",
-        "taxpayerId": "93652801MA78HQQJ1W"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          79.73852,
-          37.28498
-        ]
-      },
-      "properties": {
-        "id": "11092",
-        "name": "Xinjiang Aimuda Livestock Service Company Ltd",
-        "chineseName": "新疆爱牧达畜牧服务有限公司",
-        "address": "No. 191, Yifubazaxi Road, Moyu County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Moyu County",
-        "locationType": "office",
-        "scale": "micro",
-        "established": null,
-        "taxpayerId": "91653222313446679C"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           87.53442,
           43.84889
         ]
@@ -17785,29 +14933,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          87.61979,
-          43.79858
-        ]
-      },
-      "properties": {
-        "id": "11107",
-        "name": "Xinjiang Baihua Village Fast Food Chain Company Ltd",
-        "chineseName": "新疆百花村快餐连锁有限责任公司",
-        "address": "Baihua Village Building, No. 141, Zhongshan Road, Tianshan District, Urumqi, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Urumqi",
-        "district": "Tianshan District",
-        "locationType": "office",
-        "scale": "micro",
-        "established": "2022-01-22",
-        "taxpayerId": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           87.63817,
           44.04302
         ]
@@ -17992,29 +15117,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          80.64821,
-          36.46405
-        ]
-      },
-      "properties": {
-        "id": "11116",
-        "name": "Xinjiang Purebred Livestock Original Seed Protection Company Ltd",
-        "chineseName": "新疆纯种畜牧原种保护有限责任公司",
-        "address": "West of the village committee of Andir Village, Qiaha Township, Cele County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Cele County",
-        "locationType": "office",
-        "scale": "small",
-        "established": "2019-05-15",
-        "taxpayerId": "91653225MA78CGKJ95"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           86.28306,
           41.32876
         ]
@@ -18123,29 +15225,6 @@
         "scale": "small",
         "established": null,
         "taxpayerId": "91653128MACXPR9Q94"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          87.40913,
-          43.82892
-        ]
-      },
-      "properties": {
-        "id": "11122",
-        "name": "Xinjiang Avila Agricultural Technology Development Company Ltd",
-        "chineseName": "新疆艾维拉农业科技发展有限公司",
-        "address": "Room 525, Incubation Building, Xinjiang Biomedicine Innovation and Entrepreneurship Park, No. 181, Xicai Road, Urumqi High-tech Industrial Development Zone (Xinshi District), Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Urumqi",
-        "district": "New urban area",
-        "locationType": "office",
-        "scale": "micro",
-        "established": "2016-08-08",
-        "taxpayerId": "91650100399600023W"
       }
     },
     {
@@ -18360,29 +15439,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          83.06315,
-          43.56027
-        ]
-      },
-      "properties": {
-        "id": "11132",
-        "name": "Xinjiang Nalati breeding animal limited company",
-        "chineseName": "新疆那拉提种畜有限公司",
-        "address": "Asile Village, Zeketai Town, Xinyuan County, Yili Kazakh Autonomous Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Ili Kazakh Autonomous Prefecture",
-        "district": "Xinyuan County",
-        "locationType": "office",
-        "scale": "small",
-        "established": "2017-07-10",
-        "taxpayerId": "91654025757689823M"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           83.52571,
           43.42997
         ]
@@ -18475,98 +15531,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.48446,
-          38.59286
-        ]
-      },
-      "properties": {
-        "id": "11137",
-        "name": "Xinjiang Golden Muyuan Animal Husbandry Service Company Ltd Shache County Fourteenth Branch",
-        "chineseName": "新疆金牧源畜牧服务有限公司莎车县第十四分公司",
-        "address": "No. 123, Group 6, Yingalamat Village, Alamati Township, Shache County, Kashgar Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Kashgar area",
-        "district": "Shache County",
-        "locationType": "office",
-        "scale": null,
-        "established": "1992-07-10",
-        "taxpayerId": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.19265,
-          39.44741
-        ]
-      },
-      "properties": {
-        "id": "11138",
-        "name": "Xinjiang Jinpan Livestock Breeding Company Ltd",
-        "chineseName": "新疆金盘畜牧养殖有限公司",
-        "address": "Group 6, Awati Erik 18 Village, Yingwustan Township, Kashgar City, Kashgar Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Kashgar area",
-        "district": "Kashgar",
-        "locationType": "office",
-        "scale": "medium",
-        "established": "2021-04-27",
-        "taxpayerId": "91653101MA796UNW0A"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          80.11874,
-          37.02525
-        ]
-      },
-      "properties": {
-        "id": "11139",
-        "name": "Xinjiang Jinlao Livestock Company Ltd",
-        "chineseName": "新疆金羔畜牧有限公司",
-        "address": "No. 23, Tamichaka Road Farm, Chakmak Village, Shanpru Town, Lop County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Luopu County",
-        "locationType": "office",
-        "scale": "large",
-        "established": "2023-02-14",
-        "taxpayerId": "91653224MAC8T6NM7P"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.9209,
-          39.14444
-        ]
-      },
-      "properties": {
-        "id": "11140",
-        "name": "Xinjiang Jinyang Sunshine Animal Husbandry Breeding Company Ltd",
-        "chineseName": "新疆金阳光畜牧养殖有限公司",
-        "address": "Yuepuhu County Breeding Farm, Kashgar, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Kashgar area",
-        "district": "Yuepuhu County",
-        "locationType": "office",
-        "scale": "micro",
-        "established": "2013-07-08",
-        "taxpayerId": "91653128053189150N"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           87.89842,
           43.95952
         ]
@@ -18652,29 +15616,6 @@
         "scale": "small",
         "established": "2024-05-15",
         "taxpayerId": "91659002MADKDQY15E"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          87.53835,
-          44.4093
-        ]
-      },
-      "properties": {
-        "id": "11145",
-        "name": "Xinjiang Fujin Eel Special Breeding Service Company Ltd",
-        "chineseName": "新疆闽鳗特种养殖服务有限责任公司",
-        "address": "No. 130, Building 1, Jinhai Commercial Street, 103 Tuan, Xiangtian Road, Caijiahu Town, Wujiaqu, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Autonomous Region Directly Administered County-Level Administrative Divisions",
-        "district": "Wujiaqu City",
-        "locationType": "office",
-        "scale": "large",
-        "established": null,
-        "taxpayerId": "91659004MAD9BUN15A"
       }
     },
     {
@@ -18790,29 +15731,6 @@
         "scale": "small",
         "established": null,
         "taxpayerId": "91659002MABKY74R63"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          87.61246,
-          43.80857
-        ]
-      },
-      "properties": {
-        "id": "11151",
-        "name": "Xinjiang Xiongzheng Industrial Company Ltd",
-        "chineseName": "新疆雄征实业有限公司",
-        "address": "Room 17A, Block A, 17th Floor, Building 1, Times Square Community, No. 59, Guangming Road, Tianshan District, Urumqi, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Urumqi",
-        "district": "Tianshan District",
-        "locationType": "office",
-        "scale": "small",
-        "established": "2013-08-15",
-        "taxpayerId": "91650102MA7LFM0G14"
       }
     },
     {
@@ -18951,29 +15869,6 @@
         "scale": null,
         "established": "2024-04-16",
         "taxpayerId": "91652302MADG2KL124"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          87.41273,
-          43.47539
-        ]
-      },
-      "properties": {
-        "id": "11158",
-        "name": "Xinjiang Shouzheng Ecological Agricultural Development Company Ltd",
-        "chineseName": "新疆首正生态农业发展有限公司",
-        "address": "Room 901, Unit 1, 9th Floor, Building 14, Lingxiu. New City, No. 868, Changchun South Road, Urumqi High-tech Zone (New City District), Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Urumqi",
-        "district": "Toutunhe District",
-        "locationType": "office",
-        "scale": "small",
-        "established": "2012-04-06",
-        "taxpayerId": "91650104MACK78J08W"
       }
     },
     {
@@ -19158,29 +16053,6 @@
         "scale": "small",
         "established": null,
         "taxpayerId": "91659009MA78RWWY38"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          79.29587,
-          37.21672
-        ]
-      },
-      "properties": {
-        "id": "11167",
-        "name": "Kunyu City Zhiqin Agricultural Breeding Professional Cooperative",
-        "chineseName": "昆玉市智勤农业养殖专业合作社",
-        "address": "No. 03, Company 9, 224th Regiment, Kunyu City, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Autonomous Region Directly Administered County-Level Administrative Divisions",
-        "district": "Kunyu City",
-        "locationType": "farm",
-        "scale": "micro",
-        "established": "2020-05-27",
-        "taxpayerId": "93659009MA78QRWP04"
       }
     },
     {
@@ -19602,29 +16474,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          87.00938,
-          43.92059
-        ]
-      },
-      "properties": {
-        "id": "11186",
-        "name": "Changji Golden Land Agricultural Planting Professional Cooperative",
-        "chineseName": "昌吉市金土地农业种植专业合作社",
-        "address": "2 shops next to Ashili Township Government (opposite to the police station) in Changji Hui Autonomous Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Changji Hui Autonomous Prefecture",
-        "district": "Changji City",
-        "locationType": "farm",
-        "scale": "small",
-        "established": "2020-11-24",
-        "taxpayerId": "93652301MA790ADQ0H"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           87.40898,
           44.08148
         ]
@@ -19687,29 +16536,6 @@
         "scale": "medium",
         "established": null,
         "taxpayerId": "91654026MADNAKJE62"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          77.07017,
-          39.16021
-        ]
-      },
-      "properties": {
-        "id": "11190",
-        "name": "Chenguang Biotechnology Group Kashi Company Ltd",
-        "chineseName": "晨光生物科技集团喀什有限公司",
-        "address": "Weisan Road, Taiyue Industrial Park, Yuepuhu County, Kashgar, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Kashgar area",
-        "district": "Yuepuhu County",
-        "locationType": "office",
-        "scale": "small",
-        "established": "2017-07-27",
-        "taxpayerId": null
       }
     },
     {
@@ -19802,29 +16628,6 @@
         "scale": "small",
         "established": "2023-12-25",
         "taxpayerId": "91653227MAD8AX1GXB"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          82.69872,
-          37.07744
-        ]
-      },
-      "properties": {
-        "id": "11195",
-        "name": "Minfeng County Longxing Animal Husbandry Development Company Ltd",
-        "chineseName": "民丰县龙兴牧业发展有限公司",
-        "address": "Area 3, Team 4, Fufuke Village, Minfeng County, Hotan Prefecture, Xinjiang (Minfeng County Longfang Aquaculture Farmers Professional Cooperative)",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Minfeng County",
-        "locationType": "office",
-        "scale": "small",
-        "established": null,
-        "taxpayerId": "91653227MA78P8TT77"
       }
     },
     {
@@ -20154,29 +16957,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          82.63546,
-          41.36193
-        ]
-      },
-      "properties": {
-        "id": "11210",
-        "name": "Shaya County Yuanji Animal Husbandry Technical Service Farmers Professional Cooperative",
-        "chineseName": "沙雅县元吉畜牧技术服务农民专业合作社",
-        "address": "Inside the Animal Husbandry and Veterinary Station in Yingmaili Town, Shaya County, Aksu Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Aksu region",
-        "district": "Shaya County",
-        "locationType": "farm",
-        "scale": "micro",
-        "established": "2020-05-18",
-        "taxpayerId": "93652924MA78Q64Y94"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           82.64273,
           41.48091
         ]
@@ -20476,29 +17256,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          80.11874,
-          37.02525
-        ]
-      },
-      "properties": {
-        "id": "11224",
-        "name": "Luopu County Dele Breeding Farmers Professional Cooperative",
-        "chineseName": "洛浦县德乐养殖农民专业合作社",
-        "address": "No. 408, Team 5, Otulabizili Village, Shanpuru Town, Lop County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Luopu County",
-        "locationType": "farm",
-        "scale": "small",
-        "established": "2020-04-21",
-        "taxpayerId": "93653224MA78NBMU8B"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           80.55777,
           37.1093
         ]
@@ -20515,52 +17272,6 @@
         "scale": "micro",
         "established": null,
         "taxpayerId": "92653224MA790MCE9H"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          80.19325,
-          37.07974
-        ]
-      },
-      "properties": {
-        "id": "11226",
-        "name": "Luopu County expects poultry breeding Company Ltd",
-        "chineseName": "洛浦县期望家禽养殖有限公司",
-        "address": "No. 42, Lane 8, Aiyi Aierke Residential Area, Lop County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Luopu County",
-        "locationType": "office",
-        "scale": "micro",
-        "established": "2022-04-26",
-        "taxpayerId": "91653224328846587R"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          80.48405,
-          37.09845
-        ]
-      },
-      "properties": {
-        "id": "11227",
-        "name": "Luopu County Elaeagnus Elaeagnus Honey Breeding Professional Cooperative",
-        "chineseName": "洛浦县沙枣花蜂蜜养殖专业合作社",
-        "address": "No. 27, Team 1, Sugeti Bostan Village, Baishitoglak Township, Lop County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Luopu County",
-        "locationType": "farm",
-        "scale": "small",
-        "established": null,
-        "taxpayerId": "93653224MA78P00G4L"
       }
     },
     {
@@ -20614,29 +17325,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          80.2279,
-          37.13053
-        ]
-      },
-      "properties": {
-        "id": "11230",
-        "name": "Luopu County Niulang Livestock Breeding Farmers Professional Cooperative",
-        "chineseName": "洛浦县牛郎畜牧养殖农民专业合作社",
-        "address": "No. 57, Toglaerike Village, Duolu Township, Lop County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Luopu County",
-        "locationType": "farm",
-        "scale": "small",
-        "established": null,
-        "taxpayerId": "93653224MA78XWAH7G"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           80.18411,
           37.07606
         ]
@@ -20683,29 +17371,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          80.15881,
-          37.01847
-        ]
-      },
-      "properties": {
-        "id": "11233",
-        "name": "Luopu County Meiyu Breeding Farmers Professional Cooperative",
-        "chineseName": "洛浦县美域养殖农民专业合作社",
-        "address": "No. 373, Kuotazilangan Village, Shanpuru Town, Lop County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Luopu County",
-        "locationType": "farm",
-        "scale": "micro",
-        "established": "2021-03-05",
-        "taxpayerId": "93653224MA7942A33T"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           80.19325,
           37.07974
         ]
@@ -20722,29 +17387,6 @@
         "scale": "small",
         "established": "2022-04-26",
         "taxpayerId": "93653224MA78YFQH8W"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          80.16916,
-          36.85229
-        ]
-      },
-      "properties": {
-        "id": "11235",
-        "name": "Luopu County Rongmin Breeding Farmers Professional Cooperative",
-        "chineseName": "洛浦县融民种养殖农民专业合作社",
-        "address": "No. 204, Yangtakeleke Village, Aqike Township, Lop County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Luopu County",
-        "locationType": "farm",
-        "scale": "small",
-        "established": null,
-        "taxpayerId": "93653224MA7AB5109M"
       }
     },
     {
@@ -20844,29 +17486,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          80.11349,
-          37.05002
-        ]
-      },
-      "properties": {
-        "id": "11240",
-        "name": "Luopu County Bright Breeding Farmers Professional Cooperative",
-        "chineseName": "洛浦县鲜艳养殖农民专业合作社",
-        "address": "No. 1, Aqiadun Village, Nawa Township, Lop County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Luopu County",
-        "locationType": "farm",
-        "scale": "small",
-        "established": null,
-        "taxpayerId": "93653224MA795P4E3K"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           80.18294,
           37.07052
         ]
@@ -20883,29 +17502,6 @@
         "scale": "small",
         "established": null,
         "taxpayerId": "91653224MA78RB5M6H"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          87.50375,
-          43.80149
-        ]
-      },
-      "properties": {
-        "id": "11242",
-        "name": "Zhejiang Xicheng Engineering Design Company Ltd Xinjiang Branch",
-        "chineseName": "浙江西城工程设计有限公司新疆分公司",
-        "address": "No. 3-56, Qiangwei 3rd Street, Bingtuan Industrial Park, Economic and Technological Development Zone, Urumqi, Xinjiang (12th Division)",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Urumqi",
-        "district": "Toutunhe District",
-        "locationType": "office",
-        "scale": null,
-        "established": "2017-04-18",
-        "taxpayerId": null
       }
     },
     {
@@ -21373,29 +17969,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          86.57775,
-          42.12325
-        ]
-      },
-      "properties": {
-        "id": "11263",
-        "name": "Yanqi County Lifeng Rare Bird Breeding Professional Cooperative",
-        "chineseName": "焉耆县立峰珍禽养殖专业合作社",
-        "address": "Beidaqu Village Group 2, Beidaqu Township, Yanqi County, Bayingolin Mongol Autonomous Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Bayingolin Mongol Autonomous Prefecture",
-        "district": "Yanqi Hui Autonomous County",
-        "locationType": "farm",
-        "scale": "medium",
-        "established": "2011-12-30",
-        "taxpayerId": "93652826589312735B"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           86.56408,
           42.07756
         ]
@@ -21603,29 +18176,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          86.22034,
-          44.30741
-        ]
-      },
-      "properties": {
-        "id": "11273",
-        "name": "Manas County Shenghe Luyuan Planting Professional Cooperative",
-        "chineseName": "玛纳斯县盛合绿源种植专业合作社",
-        "address": "Room 401, 4th Floor, No. 121, Wenhua Road, Building 3, A3 District, Manas County, Changji Hui Autonomous Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Changji Hui Autonomous Prefecture",
-        "district": "Manas County",
-        "locationType": "farm",
-        "scale": "large",
-        "established": "2019-07-08",
-        "taxpayerId": "93652324MA78ET23XY"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           86.29275,
           44.39276
         ]
@@ -21665,29 +18215,6 @@
         "scale": "medium",
         "established": "2021-11-17",
         "taxpayerId": "93653122MA7D4TTA95"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.16627,
-          39.14878
-        ]
-      },
-      "properties": {
-        "id": "11276",
-        "name": "Shule County Farmers’ Desire Agricultural and Livestock Products Farmers Professional Cooperative",
-        "chineseName": "疏勒县农民愿望农畜产品农民专业合作社",
-        "address": "No. 28, Group 2, Village 12, Hujilike Farm, Aiermudong Township, Shule County, Kashgar Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Kashgar area",
-        "district": "Shule County",
-        "locationType": "farm",
-        "scale": "micro",
-        "established": "2020-05-19",
-        "taxpayerId": "93653122MA78Q8QL8W"
       }
     },
     {
@@ -21884,29 +18411,6 @@
         ]
       },
       "properties": {
-        "id": "11285",
-        "name": "Shufu County Pareseti Agricultural and Livestock Products Farmers’ Professional Cooperative",
-        "chineseName": "疏附县帕热赛提农畜产品农民专业合作社",
-        "address": "No. 25, Group 4, Village 3, Bulaikesu Township, Shufu County, Kashgar Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Kashgar area",
-        "district": "Shufu County",
-        "locationType": "farm",
-        "scale": "micro",
-        "established": "2015-05-20",
-        "taxpayerId": "9365312132890605XB"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          75.80987,
-          39.27155
-        ]
-      },
-      "properties": {
         "id": "11286",
         "name": "Shufu County Hepan Agricultural and Livestock Products Farmers Professional Cooperative",
         "chineseName": "疏附县河畔农畜产品农民专业合作社",
@@ -21918,29 +18422,6 @@
         "scale": "small",
         "established": "2022-12-26",
         "taxpayerId": "93653121MAC5NMXQ1Y"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          75.72876,
-          39.32128
-        ]
-      },
-      "properties": {
-        "id": "11287",
-        "name": "Shufu County White Goose Breeding Professional Cooperative",
-        "chineseName": "疏附县白鹅养殖专业合作社",
-        "address": "Kupuse Village (6), Group 1, Saibag Township, Shufu County, Kashgar Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Kashgar area",
-        "district": "Shufu County",
-        "locationType": "farm",
-        "scale": "micro",
-        "established": null,
-        "taxpayerId": "93653121MA78FP1J9K"
       }
     },
     {
@@ -22102,52 +18583,6 @@
         "scale": "small",
         "established": null,
         "taxpayerId": "93653223MA78E68P5K"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          78.35044,
-          37.1647
-        ]
-      },
-      "properties": {
-        "id": "11295",
-        "name": "Pishan County Greenland Agriculture and Animal Husbandry Farmers Professional Cooperative",
-        "chineseName": "皮山县绿地农牧农民专业合作社",
-        "address": "No. 293, Kumu Aigle Village, Sangzhu Town, Pishan County, Hotan Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Hotan Prefecture",
-        "district": "Pishan County",
-        "locationType": "farm",
-        "scale": "small",
-        "established": "2020-05-22",
-        "taxpayerId": "93653223MA78YTT65L"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          86.08404,
-          44.31074
-        ]
-      },
-      "properties": {
-        "id": "11296",
-        "name": "Haohua Aquaculture Professional Cooperative",
-        "chineseName": "石河子市下野地镇昊华水产养殖专业合作社",
-        "address": "No. 3, Building 1, Company 23, 134th Regiment, Xiayedi Town, Shihezi City, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Autonomous Region Directly Administered County-Level Administrative Divisions",
-        "district": "Shihezi City",
-        "locationType": "farm",
-        "scale": "small",
-        "established": "2017-08-02",
-        "taxpayerId": "93659001MA77K74N8L"
       }
     },
     {
@@ -22477,29 +18912,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          86.08404,
-          44.31074
-        ]
-      },
-      "properties": {
-        "id": "11311",
-        "name": "Shihezi City Xin'an Town Yubao Ecological Breeding Company Ltd",
-        "chineseName": "石河子市新安镇御宝生态养殖有限公司",
-        "address": "Room 216, Building 37, Residential District 9, Xin'an Town, Shihezi City, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Autonomous Region Directly Administered County-Level Administrative Divisions",
-        "district": "Shihezi City",
-        "locationType": "office",
-        "scale": "micro",
-        "established": "2018-10-17",
-        "taxpayerId": "91659001MABKY9M72L"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           85.97967,
           44.29843
         ]
@@ -22585,52 +18997,6 @@
         "scale": "micro",
         "established": "2023-04-11",
         "taxpayerId": "92659001MACF9AAY05"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          86.01954,
-          44.31152
-        ]
-      },
-      "properties": {
-        "id": "11316",
-        "name": "Shihezi City Hongqiaowan Seedling Farmers Professional Cooperative",
-        "chineseName": "石河子市红桥湾苗木农民专业合作社",
-        "address": "No. 18-1, North Fourth Road, 6th District, Shihezi City, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Autonomous Region Directly Administered County-Level Administrative Divisions",
-        "district": "Shihezi City",
-        "locationType": "farm",
-        "scale": "medium",
-        "established": "2021-01-28",
-        "taxpayerId": "93659001MABKXA766R"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          85.99021,
-          44.34899
-        ]
-      },
-      "properties": {
-        "id": "11317",
-        "name": "Shihezi Shiqiao Earthworm Ecological Breeding Company Ltd",
-        "chineseName": "石河子市题桥蚯蚓生态养殖有限公司",
-        "address": "Room 622-03, Kechuang Building, No. 8 Dalian West Road, Beiquan Town, Shihezi City, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Autonomous Region Directly Administered County-Level Administrative Divisions",
-        "district": "Shihezi City",
-        "locationType": "office",
-        "scale": "medium",
-        "established": "2007-09-26",
-        "taxpayerId": "91659001MA7AAK8Y7F"
       }
     },
     {
@@ -23282,52 +19648,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          82.29868,
-          44.60786
-        ]
-      },
-      "properties": {
-        "id": "11346",
-        "name": "Jinghe County Mulinhe Ecological Company Ltd",
-        "chineseName": "精河县牧林合生态有限责任公司",
-        "address": "Room 203, Unit 3, Building 2, Shengli Community, Aheqi Farm, Jinghe County, Bortala Mongol Autonomous Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Bortala Mongol Autonomous Prefecture",
-        "district": "Jinghe County",
-        "locationType": "office",
-        "scale": "small",
-        "established": "2021-02-04",
-        "taxpayerId": "91652722MA7930TC7U"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          82.8884,
-          44.61498
-        ]
-      },
-      "properties": {
-        "id": "11347",
-        "name": "Jinghe County Jinhetai Biotechnology Company Ltd",
-        "chineseName": "精河县金何太生物科技有限公司",
-        "address": "No. 12, Bayinnamenmu Comprehensive Breeding Community, Mangding Township, Jinghe County, Bortala Mongol Autonomous Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Bortala Mongol Autonomous Prefecture",
-        "district": "Jinghe County",
-        "locationType": "office",
-        "scale": "micro",
-        "established": "2017-03-09",
-        "taxpayerId": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           82.89457,
           44.60626
         ]
@@ -23551,29 +19871,6 @@
         "scale": "small",
         "established": "2021-03-10",
         "taxpayerId": "91659030MA78TCRJ5H"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          77.48742,
-          38.58764
-        ]
-      },
-      "properties": {
-        "id": "11358",
-        "name": "Shache County Agriculture and Breeding Farmers Professional Cooperative",
-        "chineseName": "莎车县助农养殖农民专业合作社",
-        "address": "No. 56, Group 2, Kuonabaza Village, Alamati Town, Shache County, Kashgar Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Kashgar area",
-        "district": "Shache County",
-        "locationType": "farm",
-        "scale": "small",
-        "established": null,
-        "taxpayerId": "93653125MA79HXNC5F"
       }
     },
     {
@@ -24133,29 +20430,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          85.68432,
-          41.86237
-        ]
-      },
-      "properties": {
-        "id": "11383",
-        "name": "Tiemenguan Dajiang Fudi Agricultural Technology Company Ltd",
-        "chineseName": "铁门关市大江富地农业科技有限公司",
-        "address": "No. 25, Sanliutuan Industrial Park, Milan Town, Tiemenguan City, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Autonomous Region Directly Administered County-Level Administrative Divisions",
-        "district": "Tiemenguan City",
-        "locationType": "office",
-        "scale": "medium",
-        "established": "2022-04-13",
-        "taxpayerId": "91659006MABL0A0A5K"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           85.91439,
           41.81881
         ]
@@ -24225,29 +20499,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          85.68432,
-          41.86237
-        ]
-      },
-      "properties": {
-        "id": "11387",
-        "name": "Tiemenguan City Xiangtai Breeding Professional Cooperative",
-        "chineseName": "铁门关市祥泰养殖专业合作社",
-        "address": "No. 1, Company 11, Hepan Town, 22nd Regiment, Tiemenguan City, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Autonomous Region Directly Administered County-Level Administrative Divisions",
-        "district": "Tiemenguan City",
-        "locationType": "farm",
-        "scale": "small",
-        "established": "2022-01-05",
-        "taxpayerId": "93659006MABKYQN32L"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           88.11207,
           44.20507
         ]
@@ -24264,29 +20515,6 @@
         "scale": "micro",
         "established": null,
         "taxpayerId": "92652302MA7AAP36XF"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          87.99071,
-          44.16197
-        ]
-      },
-      "properties": {
-        "id": "11389",
-        "name": "Fukang City Yu Xuewen Planting Family Farm",
-        "chineseName": "阜康市余学文种植家庭农场",
-        "address": "No. 17, North of Akmunala Village, Shanghugou Township, Fukang City, Changji Hui Autonomous Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Changji Hui Autonomous Prefecture",
-        "district": "Fukang City",
-        "locationType": "farm",
-        "scale": "micro",
-        "established": null,
-        "taxpayerId": "92652302MAD9BTC39H"
       }
     },
     {
@@ -24662,29 +20890,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          80.28463,
-          41.15528
-        ]
-      },
-      "properties": {
-        "id": "11406",
-        "name": "Gaocuizhi aquatic products wholesale and retail store",
-        "chineseName": "阿克苏市高翠之水产品批发零售店",
-        "address": "No. 19, Testing Backyard, Dongfeng Farmers Market, No. 38, Shanghai Road, Tuofeng Community, Nancheng Street, Aksu City, Aksu Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Aksu region",
-        "district": "Aksu City",
-        "locationType": "farm",
-        "scale": "micro",
-        "established": null,
-        "taxpayerId": "92652901MA79K4TM28"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           80.20275,
           41.17693
         ]
@@ -24724,29 +20929,6 @@
         "scale": "small",
         "established": "2014-05-28",
         "taxpayerId": "93652922MA78BRHRXE"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          80.30076,
-          41.16492
-        ]
-      },
-      "properties": {
-        "id": "11409",
-        "name": "Aksu Ward Airy Food Company Ltd",
-        "chineseName": "阿克苏沃德爱里食品有限公司",
-        "address": "No. 001, South City Substation, Intersection of Team 7, Aksu Experimental Forest Farm, Aksu Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Aksu region",
-        "district": "Aksu City",
-        "locationType": "office",
-        "scale": "micro",
-        "established": "2018-10-16",
-        "taxpayerId": null
       }
     },
     {
@@ -24862,29 +21044,6 @@
         "scale": "medium",
         "established": "2022-04-27",
         "taxpayerId": "91652901MABMKE9W35"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          80.38065,
-          40.63417
-        ]
-      },
-      "properties": {
-        "id": "11415",
-        "name": "Aksu Yinye Agriculture and Animal Husbandry Technology Company Ltd",
-        "chineseName": "阿克苏银叶农牧林科技有限公司",
-        "address": "Next to the gas station in Group 3, Yustunke Kagmushi Village, Ayibag Township, Awati County, Aksu Prefecture, Xinjiang (Office No. 5, 2nd Floor, Office Building, Awati County Jinma Xuhang Driving School Company Ltd)",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Aksu region",
-        "district": "Awati County",
-        "locationType": "office",
-        "scale": "small",
-        "established": "2022-01-04",
-        "taxpayerId": "91652928MA7G8FL7XY"
       }
     },
     {
@@ -25329,29 +21488,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          76.19778,
-          39.69765
-        ]
-      },
-      "properties": {
-        "id": "11435",
-        "name": "Atushi Kawuli Food Company Ltd",
-        "chineseName": "阿图什市喀吾里食品有限公司",
-        "address": "No. 131, Youyi East Road, Wentusak Village, Songtak Township, Atushi City, Kizilsu Kirgiz Autonomous Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Kizilsu Kirgiz Autonomous Prefecture",
-        "district": "Atushi City",
-        "locationType": "office",
-        "scale": "micro",
-        "established": "2018-05-08",
-        "taxpayerId": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           76.63566,
           39.78517
         ]
@@ -25368,29 +21504,6 @@
         "scale": "micro",
         "established": "2021-09-15",
         "taxpayerId": "92653001MA79K7NL4A"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          76.09606,
-          39.67348
-        ]
-      },
-      "properties": {
-        "id": "11437",
-        "name": "Atushi Xinmeiyunlai Food Company Ltd",
-        "chineseName": "阿图什市新美好运来食品有限公司",
-        "address": "Factory No. 3, Small and Micro Industrial Park, Light Industrial Park, Atushi City, Kizilsu Kirgiz Autonomous Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Kizilsu Kirgiz Autonomous Prefecture",
-        "district": "Atushi City",
-        "locationType": "office",
-        "scale": "micro",
-        "established": "2020-09-12",
-        "taxpayerId": null
       }
     },
     {
@@ -26042,29 +22155,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          79.45135,
-          41.38696
-        ]
-      },
-      "properties": {
-        "id": "11466",
-        "name": "Alar City Green Field Livestock and Poultry Farmers Professional Cooperative",
-        "chineseName": "阿拉尔市绿田野畜禽养殖农民专业合作社",
-        "address": "The 12th Company of the 4th Regiment of Yongning Town, Alaer City, Xinjiang (National Company)",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Autonomous Region Directly Administered County-Level Administrative Divisions",
-        "district": "Aral City",
-        "locationType": "farm",
-        "scale": "small",
-        "established": "2022-07-06",
-        "taxpayerId": "93652927MA77YHT7XX"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           81.29774,
           40.49128
         ]
@@ -26081,29 +22171,6 @@
         "scale": "micro",
         "established": "2024-03-07",
         "taxpayerId": "93659002MADCKNKR14"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          81.03809,
-          40.66333
-        ]
-      },
-      "properties": {
-        "id": "11468",
-        "name": "Alar City Wasteland Animal Husbandry Company Ltd",
-        "chineseName": "阿拉尔市荒地牧业有限公司",
-        "address": "Office No. 4, District 2, Shuangcheng Town, Liutuan, Alaer City, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Autonomous Region Directly Administered County-Level Administrative Divisions",
-        "district": "Aral City",
-        "locationType": "office",
-        "scale": "medium",
-        "established": "2014-09-29",
-        "taxpayerId": "91659002313310616Q"
       }
     },
     {
@@ -26150,29 +22217,6 @@
         "scale": "micro",
         "established": "2023-12-28",
         "taxpayerId": "91659002MAD9CFTE4F"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          81.29157,
-          40.54091
-        ]
-      },
-      "properties": {
-        "id": "11471",
-        "name": "Alar Caibeibei Food Company Ltd",
-        "chineseName": "阿拉尔市采贝贝食品有限公司",
-        "address": "No. 8-02, International Trade City, Aral City, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Autonomous Region Directly Administered County-Level Administrative Divisions",
-        "district": "Aral City",
-        "locationType": "office",
-        "scale": "micro",
-        "established": "2015-06-29",
-        "taxpayerId": null
       }
     },
     {
@@ -26346,29 +22390,6 @@
         ]
       },
       "properties": {
-        "id": "11479",
-        "name": "Alar City Qixingzhong Livestock and Poultry Farmers Professional Cooperative",
-        "chineseName": "阿拉尔市齐兴众畜禽养殖农民专业合作社",
-        "address": "Office of the 17th Company of the 10th Regiment, Alaer City, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Autonomous Region Directly Administered County-Level Administrative Divisions",
-        "district": "Aral City",
-        "locationType": "farm",
-        "scale": "small",
-        "established": "2008-07-31",
-        "taxpayerId": "93659002MA77XRXJ53"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          81.28455,
-          40.55269
-        ]
-      },
-      "properties": {
         "id": "11480",
         "name": "Alar Blue Dragon Breeding Company Ltd",
         "chineseName": "阿拉尔蓝龙养殖有限责任公司",
@@ -26380,52 +22401,6 @@
         "scale": "small",
         "established": "2008-07-31",
         "taxpayerId": "91659002MAD9QYEQ52"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          80.3215,
-          40.80503
-        ]
-      },
-      "properties": {
-        "id": "11481",
-        "name": "Awati County Wangli Livestock and Poultry Farmers Professional Cooperative",
-        "chineseName": "阿瓦提县旺利畜禽养殖农民专业合作社",
-        "address": "No. 56, Group 4, Towankkumuerike Village, Baishierike Town, Awati County, Aksu Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Aksu region",
-        "district": "Awati County",
-        "locationType": "farm",
-        "scale": "micro",
-        "established": "2019-09-02",
-        "taxpayerId": "93652928MA78GUAA1C"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          80.45869,
-          40.44349
-        ]
-      },
-      "properties": {
-        "id": "11482",
-        "name": "Boer Dali Breeding Farmers Professional Cooperative",
-        "chineseName": "阿瓦提县波尔大力养殖农民专业合作社",
-        "address": "No. 136, Group 1, Duolang Village, Wuluquele Town, Awati County, Aksu Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Aksu region",
-        "district": "Awati County",
-        "locationType": "farm",
-        "scale": "small",
-        "established": "2018-06-27",
-        "taxpayerId": "93652928MA7811523X"
       }
     },
     {
@@ -26640,29 +22615,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          80.65207,
-          44.24543
-        ]
-      },
-      "properties": {
-        "id": "11493",
-        "name": "Horgos Huitong Livestock Development Farmers Professional Cooperative",
-        "chineseName": "霍尔果斯汇通畜牧发展农民专业合作社",
-        "address": "Yichegashan Village Breeding Community, Yichegashan Township, Horgos, Ili Kazakh Autonomous Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Ili Kazakh Autonomous Prefecture",
-        "district": "Horgos City",
-        "locationType": "farm",
-        "scale": "small",
-        "established": "2015-05-11",
-        "taxpayerId": "936540043330273167"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           90.45958,
           46.67735
         ]
@@ -26686,29 +22638,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          84.86297,
-          45.61418
-        ]
-      },
-      "properties": {
-        "id": "11495",
-        "name": "Emin County Wantong Animal Husbandry Company Ltd Karamay Branch",
-        "chineseName": "额敏县万通畜牧有限责任公司克拉玛依分公司",
-        "address": "No. 135, Tahe Road, Karamay District, Karamay City, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Karamay City",
-        "district": "Karamay District",
-        "locationType": "office",
-        "scale": null,
-        "established": "2005-11-22",
-        "taxpayerId": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           83.70851,
           46.47533
         ]
@@ -26725,29 +22654,6 @@
         "scale": "small",
         "established": "2014-03-07",
         "taxpayerId": "93654221092758774G"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          83.6877,
-          46.39841
-        ]
-      },
-      "properties": {
-        "id": "11497",
-        "name": "Kangjing Family Farm",
-        "chineseName": "额敏县康景家庭农场",
-        "address": "No. 000872, Kezile Ageng Village, Mare Lesu Township, Emin County, Tacheng District, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Tacheng area",
-        "district": "Emin County",
-        "locationType": "farm",
-        "scale": "micro",
-        "established": "2024-03-13",
-        "taxpayerId": "92654221MA79HJK690"
       }
     },
     {
@@ -26916,29 +22822,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.66002,
-          38.8423
-        ]
-      },
-      "properties": {
-        "id": "11505",
-        "name": "Maigaiti County Daolang Special Agricultural Products Company Ltd",
-        "chineseName": "麦盖提县刀郎特色农产品有限公司",
-        "address": "025, Group 4, Towankumukusar Village, Kumukusar Township, Maigaiti County, Kashgar Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Kashgar area",
-        "district": "Maigaiti County",
-        "locationType": "office",
-        "scale": "medium",
-        "established": "2023-12-29",
-        "taxpayerId": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           78.2249,
           39.26847
         ]
@@ -26962,29 +22845,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.65791,
-          38.95667
-        ]
-      },
-      "properties": {
-        "id": "11507",
-        "name": "Mai Gaiti County Tiannong Kangjia Livestock and Poultry Breeding Company Ltd",
-        "chineseName": "麦盖提县天农康嘉种畜禽繁育有限公司",
-        "address": "No. 57, Group 1, Baoleka Village, Yangtake Township, Maigaiti County, Kashgar Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Kashgar area",
-        "district": "Maigaiti County",
-        "locationType": "office",
-        "scale": "micro",
-        "established": "2011-07-22",
-        "taxpayerId": "91653127MA7N1MYG3R"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           77.72599,
           39.12596
         ]
@@ -27001,29 +22861,6 @@
         "scale": "micro",
         "established": null,
         "taxpayerId": "93653127MA78Q7WT9X"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          77.66002,
-          38.8423
-        ]
-      },
-      "properties": {
-        "id": "11509",
-        "name": "Maigaiti County Baoshan Ecological Breeding Company Ltd",
-        "chineseName": "麦盖提县宝山生态养殖有限责任公司",
-        "address": "No. 86, Group 3, Towankumukusar Village, Kumukusar Township, Maigaiti County, Kashgar Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Kashgar area",
-        "district": "Maigaiti County",
-        "locationType": "office",
-        "scale": "medium",
-        "established": "2013-10-21",
-        "taxpayerId": "91653127080202306N"
       }
     },
     {
@@ -27077,29 +22914,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          77.65851,
-          38.88559
-        ]
-      },
-      "properties": {
-        "id": "11512",
-        "name": "Markit County Foods",
-        "chineseName": "麦盖提县食品公司",
-        "address": "No. 2, Shaputuluk Road, Chengnan Industrial Park, Maigaiti County, Kashgar, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Kashgar area",
-        "district": "Maigaiti County",
-        "locationType": "office",
-        "scale": "small",
-        "established": "1996-06-10",
-        "taxpayerId": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           77.6593,
           38.90283
         ]
@@ -27116,29 +22930,6 @@
         "scale": "small",
         "established": "2020-05-12",
         "taxpayerId": "93653127MA78PQN51G"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          77.6241,
-          38.90902
-        ]
-      },
-      "properties": {
-        "id": "11514",
-        "name": "Maigaiti Desert Agricultural Technology Development Company Ltd",
-        "chineseName": "麦盖提沙漠农业科技开发有限公司",
-        "address": "Shop 109, Building 15, Area C, Heping Community, Heping Community, Maigaiti County, Kashgar Prefecture, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Kashgar area",
-        "district": "Maigaiti County",
-        "locationType": "office",
-        "scale": "micro",
-        "established": null,
-        "taxpayerId": "91653127MA7771B74Y"
       }
     },
     {
@@ -27184,29 +22975,6 @@
         "locationType": "farm",
         "scale": "micro",
         "established": "2016-12-26",
-        "taxpayerId": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          79.0928,
-          39.86993
-        ]
-      },
-      "properties": {
-        "id": "11517",
-        "name": "Xinjiang Yehe Sunshine Agriculture Company Ltd",
-        "chineseName": "新疆叶河阳光农业股份有限公司",
-        "address": "No. 9 Qianhai East Street, Tumushuke City, Xinjiang",
-        "province": "Xinjiang Uyghur Autonomous Region",
-        "city": "Autonomous Region Directly Administered County-Level Administrative Divisions",
-        "district": "Tumushuke City",
-        "locationType": "office",
-        "scale": "micro",
-        "established": "2004-06-24",
         "taxpayerId": null
       }
     },
