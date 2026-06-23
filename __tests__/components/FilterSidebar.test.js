@@ -87,7 +87,7 @@ describe('FilterSidebar Component', () => {
     it('should render sidebar with correct structure', () => {
       render(<FilterSidebar {...defaultProps} />);
 
-      expect(screen.getByText(/Filter.*Records/)).toBeInTheDocument();
+      expect(screen.getByText(/Filter.*Farms/)).toBeInTheDocument();
     });
 
     it('should render collapse button', () => {
@@ -135,7 +135,7 @@ describe('FilterSidebar Component', () => {
     it('should display total record count', () => {
       render(<FilterSidebar {...defaultProps} />);
 
-      expect(screen.getByText(/Filter 4 Records/)).toBeInTheDocument();
+      expect(screen.getByText(/Filter 4 Farms/)).toBeInTheDocument();
     });
 
     it('should show "Showing all records" when no filters active', () => {
@@ -625,9 +625,9 @@ describe('FilterSidebar Component', () => {
     });
 
     it('should show the plant count when data is loaded', () => {
-      render(<FilterSidebar {...defaultProps} fishmealCount={324} />);
+      render(<FilterSidebar {...defaultProps} fishmealCount={310} />);
 
-      expect(screen.getByText('324')).toBeInTheDocument();
+      expect(screen.getByText('310')).toBeInTheDocument();
     });
 
     it('should render the toggle in the mobile drawer layout', () => {
