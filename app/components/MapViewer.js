@@ -1,7 +1,7 @@
 'use client';
 
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import Map, { Source, Layer, Marker } from 'react-map-gl/mapbox';
+import Map, { Source, Layer, Marker, AttributionControl } from 'react-map-gl/mapbox';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import darkOceanStyle from '../styles/dark-ocean-style.json';
 import satelliteWesternStyle from '../styles/satellite-western-style.json';
@@ -612,6 +612,8 @@ export default function MapViewer({ geojsonData, datasetType = 'all', isSidebarC
         })}
         style={{ width: '100%', height: '100%' }}
         mapStyle={mapStyle}
+        // Render attribution as the compact, expandable "ⓘ" icon instead of a full text callout
+        attributionControl={false}
         interactiveLayerIds={[
           ...(useLayers ? (showHexbins ? ['hexbin-fill', 'all-points-layer'] : ['all-points-layer']) : []),
           ...(showFishmealPlants && fishmealData ? ['fishmeal-plants-layer'] : [])
@@ -623,6 +625,8 @@ export default function MapViewer({ geojsonData, datasetType = 'all', isSidebarC
         onMouseLeave={handleMouseLeave}
         onClick={handleMapClick}
       >
+        <AttributionControl compact={true} />
+
         {/* Hexbin density layer */}
         {showHexbins && currentHexbinData && (
           <Source

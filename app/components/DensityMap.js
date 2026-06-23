@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useMemo, useRef, useCallback } from 'react';
-import Map, { Source, Layer } from 'react-map-gl/mapbox';
+import Map, { Source, Layer, AttributionControl } from 'react-map-gl/mapbox';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import darkOceanStyle from '../styles/dark-ocean-style.json';
 import LocatorGlobe from './LocatorGlobe';
@@ -220,6 +220,8 @@ export default function DensityMap({ geojsonData, timeline, isSidebarCollapsed }
         maxBounds={BOUNDS}
         style={{ width: '100%', height: '100%' }}
         mapStyle={mapStyle}
+        // Render attribution as the compact, expandable "ⓘ" icon instead of a full text callout
+        attributionControl={false}
         interactiveLayerIds={effectiveShowPoints ? ['individual-points'] : ['hexbin-fill']}
         cursor="pointer"
         onLoad={handleMapLoad}
@@ -229,6 +231,8 @@ export default function DensityMap({ geojsonData, timeline, isSidebarCollapsed }
         }}
         onClick={effectiveShowPoints ? undefined : handleHexClick}
       >
+        <AttributionControl compact={true} />
+
         {!effectiveShowPoints && currentHexbinData && (
           <Source
             key={`hexbins-level-${currentLevel}`}

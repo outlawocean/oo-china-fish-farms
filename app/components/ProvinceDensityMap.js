@@ -1,7 +1,7 @@
 'use client';
 
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import MapGL, { Layer, Popup, Source } from 'react-map-gl/mapbox';
+import MapGL, { Layer, Popup, Source, AttributionControl } from 'react-map-gl/mapbox';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import darkOceanStyle from '../styles/dark-ocean-style.json';
 import LocatorGlobe from './LocatorGlobe';
@@ -575,6 +575,8 @@ export default function ProvinceDensityMap({ geojsonData, isSidebarCollapsed }) 
         maxBounds={BOUNDS}
         style={{ width: '100%', height: '100%' }}
         mapStyle={mapStyle}
+        // Render attribution as the compact, expandable "ⓘ" icon instead of a full text callout
+        attributionControl={false}
         interactiveLayerIds={[
           ...(selectedPoints ? ['province-points-layer'] : []),
           ...(showProvinceLayer ? ['province-fill'] : [])
@@ -586,6 +588,8 @@ export default function ProvinceDensityMap({ geojsonData, isSidebarCollapsed }) 
         onMouseLeave={handleMouseLeave}
         onClick={handleMapClick}
       >
+        <AttributionControl compact={true} />
+
         {showProvinceLayer && (
           <Source id="provinces" type="geojson" data={provinceCounts.data}>
             <Layer
