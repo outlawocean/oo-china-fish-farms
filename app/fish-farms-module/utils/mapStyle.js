@@ -22,8 +22,11 @@ export const cloneMapStyle = (style) => {
 
   if (!key) {
     console.warn(
-      'NEXT_PUBLIC_MAPTILER_KEY is not set — basemap tiles will not load. ' +
-        'Add it to .env.local and restart the dev server.'
+      'NEXT_PUBLIC_MAPTILER_KEY was not set at build time — basemap tiles ' +
+        'will not load. Set it in the environment that builds this app ' +
+        '(.env.local for local dev, Netlify site environment variables, or ' +
+        'GitHub Actions secrets), then rebuild — the value is inlined at ' +
+        'build time, so setting it without a rebuild changes nothing.'
     );
     return JSON.parse(serialized);
   }

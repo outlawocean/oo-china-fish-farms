@@ -6,7 +6,13 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 import darkOceanStyle from '../styles/dark-ocean-style.json';
 import satelliteWesternStyle from '../styles/satellite-western-style.json';
 import { cloneMapStyle } from '../fish-farms-module/utils/mapStyle';
-import { useIsMobileWithLoading } from '../hooks/useIsMobile';
+import {
+  CARD_MARGIN,
+  CARD_WIDTH,
+  getSelectionPanOffset,
+  shouldStackPanel,
+} from '../fish-farms-module/utils/panelLayout';
+import { useIsMobileWithLoading, useViewportWidth } from '../hooks/useIsMobile';
 
 // Creates a square icon for Mapbox symbol layers
 const createSquareIcon = (color, size = 10, strokeWidth = 1) => {
@@ -106,6 +112,17 @@ export default function MapViewer({ geojsonData, datasetType = 'all', isSidebarC
   useEffect(() => {
     isMobileRef.current = isMobile;
   }, [isMobile]);
+
+  // The detail panel switches to a bottom sheet well before the mobile
+  // breakpoint, because a fixed 340px card swallows half the map once the
+  // container drops under ~1000px.
+  const viewportWidth = useViewportWidth();
+  const isPanelStacked = shouldStackPanel(viewportWidth);
+  const isPanelStackedRef = useRef(isPanelStacked);
+
+  useEffect(() => {
+    isPanelStackedRef.current = isPanelStacked;
+  }, [isPanelStacked]);
 
   // Track if we should show search result highlights (when < 5 results from search)
   const [searchHighlightActive, setSearchHighlightActive] = useState(false);
@@ -529,15 +546,26 @@ export default function MapViewer({ geojsonData, datasetType = 'all', isSidebarC
         const TARGET_ZOOM = mobile ? 6 : 6.5;
         const MAX_AUTO_ZOOM = mobile ? 7 : 8;
 
+        // The detail panel is about to cover part of the map, so aim the point
+        // at the middle of what stays visible rather than the container centre.
+        const { width, height } = map.getContainer().getBoundingClientRect();
+        const offset = getSelectionPanOffset({
+          containerWidth: width,
+          containerHeight: height,
+          stacked: isPanelStackedRef.current
+        });
+
         if (currentZoom < TARGET_ZOOM) {
           map.easeTo({
             center: feature.geometry.coordinates,
             zoom: Math.min(TARGET_ZOOM, MAX_AUTO_ZOOM),
+            offset,
             duration: 800
           });
         } else if (currentZoom < MAX_AUTO_ZOOM) {
           map.easeTo({
             center: feature.geometry.coordinates,
+            offset,
             duration: 500
           });
         }
@@ -946,10 +974,10 @@ export default function MapViewer({ geojsonData, datasetType = 'all', isSidebarC
       </Map>
 
 
-      {/* Detail panel - responsive bottom sheet on mobile, side panel on desktop */}
+      {/* Detail panel - bottom sheet on narrow containers, side card on wide ones */}
       {selectedFarm && (
-        isMobile ? (
-          // Mobile bottom sheet with Reset View button positioned above
+        isPanelStacked ? (
+          // Bottom sheet with Reset View button positioned above
           <div style={{
             position: 'absolute',
             bottom: 0,
@@ -1184,12 +1212,13 @@ export default function MapViewer({ geojsonData, datasetType = 'all', isSidebarC
             </div>
           </div>
         ) : (
-          // Desktop side panel
+          // Side card, pinned to the right edge so the map keeps the widest
+          // possible clear area for the selected point
           <div style={{
             position: 'absolute',
-            top: '16px',
-            right: '160px',
-            width: '340px',
+            top: `${CARD_MARGIN}px`,
+            right: `${CARD_MARGIN}px`,
+            width: `${CARD_WIDTH}px`,
             maxHeight: 'calc(100% - 180px)',
             backgroundColor: '#fafafa',
             boxShadow: '0 4px 20px rgba(0, 0, 0, 0.3)',
@@ -1369,8 +1398,8 @@ export default function MapViewer({ geojsonData, datasetType = 'all', isSidebarC
         )
       )}
 
-      {/* Reset View button - desktop or mobile without card */}
-      {isWestern && (viewState.zoom > 4.5 || viewMode === 'density') && !(isMobile && selectedFarm) && (
+      {/* Reset View button - hidden when the bottom sheet renders its own copy */}
+      {isWestern && (viewState.zoom > 4.5 || viewMode === 'density') && !(isPanelStacked && selectedFarm) && (
         <button
           onClick={() => {
             const map = mapRef.current?.getMap();

@@ -11,6 +11,9 @@ jest.mock('../../app/hooks/useIsMobile', () => ({
   __esModule: true,
   default: jest.fn(() => false),
   useIsMobileWithLoading: jest.fn(() => ({ isMobile: false, isLoaded: true })),
+  // Wide enough that the detail panel renders as the side card, matching the
+  // isMobile: false default above.
+  useViewportWidth: jest.fn(() => 1440),
 }));
 
 // Mock map style imports
