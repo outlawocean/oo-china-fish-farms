@@ -188,3 +188,22 @@ input {
     padding-top: env(safe-area-inset-top);
   }
 }
+
+/* Hide the Mapbox wordmark.
+   Mapbox GL JS renders its own logo whenever no source reports
+   `mapbox_logo: false`. Our basemap tiles, fonts, and sprites all come from
+   MapTiler, whose TileJSON omits that field, so the logo appears over a map
+   Mapbox does not serve. Attribution for the actual data is handled by the
+   MapTiler/OSM control instead.
+
+   `_updateLogo()` writes `display: block` inline on the container, so
+   !important is required to override it. The :has() rule collapses the empty
+   container; it is a separate rule so unsupported browsers still apply the
+   first. */
+.mapboxgl-ctrl-logo {
+  display: none !important;
+}
+
+.mapboxgl-ctrl:has(> .mapboxgl-ctrl-logo) {
+  display: none !important;
+}
