@@ -24,11 +24,11 @@
 	"sources": {
 		"openmaptiles": {
 			"type": "vector",
-			"url": "https://api.maptiler.com/tiles/v3-openmaptiles/tiles.json?key=R5Js2wLegZ6GMYd5iN2E"
+			"url": "https://api.maptiler.com/tiles/v3-openmaptiles/tiles.json?key={MAPTILER_KEY}"
 		},
 		"terrain-rgb": {
 			"type": "raster-dem",
-			"url": "https://api.maptiler.com/tiles/terrain-rgb-v2/tiles.json?key=R5Js2wLegZ6GMYd5iN2E",
+			"url": "https://api.maptiler.com/tiles/terrain-rgb-v2/tiles.json?key={MAPTILER_KEY}",
 			"tileSize": 256
 		},
 		"ocean-texture": {
@@ -61,7 +61,7 @@
 		}
 	},
 	"sprite": "https://openmaptiles.github.io/osm-bright-gl-style/sprite",
-	"glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=R5Js2wLegZ6GMYd5iN2E",
+	"glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key={MAPTILER_KEY}",
 	"layers": [
 		{
 			"id": "background",

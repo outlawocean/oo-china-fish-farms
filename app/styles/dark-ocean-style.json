@@ -13,7 +13,7 @@
   "sources": {
     "openmaptiles": {
       "type": "vector",
-      "url": "https://api.maptiler.com/tiles/v3-openmaptiles/tiles.json?key=R5Js2wLegZ6GMYd5iN2E"
+      "url": "https://api.maptiler.com/tiles/v3-openmaptiles/tiles.json?key={MAPTILER_KEY}"
     }
   },
   "sprite": "https://openmaptiles.github.io/osm-bright-gl-style/sprite",

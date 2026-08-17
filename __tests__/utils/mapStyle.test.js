@@ -189,6 +189,125 @@ describe('cloneMapStyle', () => {
     });
   });
 
+  describe('MapTiler key injection', () => {
+    const originalKey = process.env.NEXT_PUBLIC_MAPTILER_KEY;
+
+    afterEach(() => {
+      process.env.NEXT_PUBLIC_MAPTILER_KEY = originalKey;
+      jest.restoreAllMocks();
+    });
+
+    it('should replace the placeholder in source urls', () => {
+      process.env.NEXT_PUBLIC_MAPTILER_KEY = 'test-key-123';
+      const original = {
+        sources: {
+          openmaptiles: {
+            url: 'https://api.maptiler.com/tiles/v3-openmaptiles/tiles.json?key={MAPTILER_KEY}',
+          },
+        },
+      };
+
+      const clone = cloneMapStyle(original);
+
+      expect(clone.sources.openmaptiles.url).toBe(
+        'https://api.maptiler.com/tiles/v3-openmaptiles/tiles.json?key=test-key-123'
+      );
+    });
+
+    it('should replace the placeholder in glyphs', () => {
+      process.env.NEXT_PUBLIC_MAPTILER_KEY = 'test-key-123';
+      const original = {
+        glyphs: 'https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key={MAPTILER_KEY}',
+      };
+
+      const clone = cloneMapStyle(original);
+
+      expect(clone.glyphs).toBe(
+        'https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=test-key-123'
+      );
+    });
+
+    it('should replace every occurrence across nested structures', () => {
+      process.env.NEXT_PUBLIC_MAPTILER_KEY = 'abc';
+      const original = {
+        glyphs: 'https://api.maptiler.com/fonts/f/r.pbf?key={MAPTILER_KEY}',
+        sources: {
+          a: { url: 'https://api.maptiler.com/tiles/v4/tiles.json?key={MAPTILER_KEY}' },
+          b: { url: 'https://api.maptiler.com/tiles/satellite-v2/tiles.json?key={MAPTILER_KEY}' },
+        },
+      };
+
+      const clone = cloneMapStyle(original);
+      const serialized = JSON.stringify(clone);
+
+      expect(serialized).not.toContain('{MAPTILER_KEY}');
+      expect(serialized.match(/key=abc/g)).toHaveLength(3);
+    });
+
+    it('should preserve mapbox template tokens like {z}/{x}/{y}', () => {
+      process.env.NEXT_PUBLIC_MAPTILER_KEY = 'abc';
+      const original = {
+        sources: {
+          a: { tiles: ['https://api.maptiler.com/tiles/{z}/{x}/{y}.pbf?key={MAPTILER_KEY}'] },
+        },
+      };
+
+      const clone = cloneMapStyle(original);
+
+      expect(clone.sources.a.tiles[0]).toBe(
+        'https://api.maptiler.com/tiles/{z}/{x}/{y}.pbf?key=abc'
+      );
+    });
+
+    it('should leave styles without the placeholder untouched', () => {
+      process.env.NEXT_PUBLIC_MAPTILER_KEY = 'abc';
+      const original = {
+        sources: { composite: { url: 'mapbox://mapbox.satellite' } },
+      };
+
+      const clone = cloneMapStyle(original);
+
+      expect(clone).toEqual(original);
+    });
+
+    it('should leave the placeholder intact when the key is missing', () => {
+      delete process.env.NEXT_PUBLIC_MAPTILER_KEY;
+      jest.spyOn(console, 'warn').mockImplementation(() => {});
+      const original = {
+        sources: { a: { url: 'https://api.maptiler.com/tiles/v4/tiles.json?key={MAPTILER_KEY}' } },
+      };
+
+      const clone = cloneMapStyle(original);
+
+      expect(clone.sources.a.url).toContain('{MAPTILER_KEY}');
+      expect(clone.sources.a.url).not.toContain('undefined');
+    });
+
+    it('should warn when the key is missing', () => {
+      delete process.env.NEXT_PUBLIC_MAPTILER_KEY;
+      const warn = jest.spyOn(console, 'warn').mockImplementation(() => {});
+      const original = {
+        sources: { a: { url: 'https://api.maptiler.com/tiles/v4/tiles.json?key={MAPTILER_KEY}' } },
+      };
+
+      cloneMapStyle(original);
+
+      expect(warn).toHaveBeenCalledWith(expect.stringContaining('NEXT_PUBLIC_MAPTILER_KEY'));
+    });
+
+    it('should still deep-clone when injecting', () => {
+      process.env.NEXT_PUBLIC_MAPTILER_KEY = 'abc';
+      const original = {
+        sources: { a: { url: 'https://api.maptiler.com/tiles/v4/tiles.json?key={MAPTILER_KEY}' } },
+      };
+
+      const clone = cloneMapStyle(original);
+      clone.sources.a.url = 'mutated';
+
+      expect(original.sources.a.url).toContain('{MAPTILER_KEY}');
+    });
+  });
+
   describe('performance and correctness', () => {
     it('should correctly clone a style with many layers', () => {
       const layers = Array.from({ length: 100 }, (_, i) => ({

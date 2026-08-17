@@ -4,11 +4,11 @@
 	"name": "Satellite Western China",
 	"sources": {
 		"maptiler_planet": {
-			"url": "https://api.maptiler.com/tiles/v4/tiles.json?key=R5Js2wLegZ6GMYd5iN2E",
+			"url": "https://api.maptiler.com/tiles/v4/tiles.json?key={MAPTILER_KEY}",
 			"type": "vector"
 		},
 		"satellite": {
-			"url": "https://api.maptiler.com/tiles/satellite-v2/tiles.json?key=R5Js2wLegZ6GMYd5iN2E",
+			"url": "https://api.maptiler.com/tiles/satellite-v2/tiles.json?key={MAPTILER_KEY}",
 			"type": "raster"
 		},
 		"overlay-polygon": {
@@ -174,7 +174,7 @@
 			}
 		}
 	},
-	"glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=R5Js2wLegZ6GMYd5iN2E",
+	"glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key={MAPTILER_KEY}",
 	"sprite": "https://api.maptiler.com/maps/satellite-v4/sprite",
 	"bearing": 0,
 	"pitch": 0,

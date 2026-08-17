@@ -28,6 +28,7 @@ jobs:
         env:
           NEXT_PUBLIC_BASE_PATH: /oo-china-fish-farms
           NEXT_PUBLIC_MAPBOX_TOKEN: ${{ secrets.NEXT_PUBLIC_MAPBOX_TOKEN }}
+          NEXT_PUBLIC_MAPTILER_KEY: ${{ secrets.NEXT_PUBLIC_MAPTILER_KEY }}
         run: |
           npm run build
           touch out/.nojekyll
