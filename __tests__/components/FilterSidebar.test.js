@@ -412,12 +412,10 @@ describe('FilterSidebar Component', () => {
   });
 
   describe('Methodology Link', () => {
-    it('should render methodology link', () => {
+    it('should not render the methodology link', () => {
       render(<FilterSidebar {...defaultProps} />);
 
-      const methodologyLink = screen.getByText(/How did we build this map/);
-      expect(methodologyLink).toBeInTheDocument();
-      expect(methodologyLink.closest('a')).toHaveAttribute('target', '_blank');
+      expect(screen.queryByText(/How did we build this map/)).not.toBeInTheDocument();
     });
   });
 

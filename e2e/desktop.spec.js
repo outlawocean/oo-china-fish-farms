@@ -305,15 +305,9 @@ test.describe('Desktop Experience', () => {
   });
 
   test.describe('Methodology Link', () => {
-    test('should have methodology link', async ({ page }) => {
+    test('should not expose the methodology link', async ({ page }) => {
       const methodologyLink = page.locator('text=/How did we build this map/i');
-      await expect(methodologyLink).toBeVisible({ timeout: 10000 });
-    });
-
-    test('should open in new tab', async ({ page }) => {
-      const methodologyLink = page.locator('a:has-text("How did we build this map")');
-      const target = await methodologyLink.getAttribute('target');
-      expect(target).toBe('_blank');
+      await expect(methodologyLink).toHaveCount(0);
     });
   });
 

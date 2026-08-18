@@ -960,69 +960,7 @@ export default function FilterSidebar({ data, onFilterChange, isCollapsed, onTog
 
             {fishmealSection}
 
-            {/* Bottom actions */}
-            <div style={{
-              marginTop: 'auto',
-              paddingTop: '1.5em',
-              borderTop: '1px solid hsla(0, 0%, 100%, 0.2)'
-            }}>
-              {/* Methodology link */}
-              <a
-                href="https://docs.google.com/document/d/1dJ3RlCSJ1xE0lpI8UmNRtkzb89H3MkgZNEcv75dTYSE/edit?tab=t.0#heading=h.o8mnhftwhx6z"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="View Map Methodology"
-                style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'space-between',
-                  gap: '0.5em',
-                  padding: '1em',
-                  border: '1px solid rgba(255, 255, 255, 0.15)',
-                  background: 'transparent',
-                  color: 'hsla(0, 0%, 100%, 0.7)',
-                  cursor: 'pointer',
-                  borderRadius: '0.375rem',
-                  textDecoration: 'none',
-                  fontSize: '0.9375em',
-                  fontWeight: '500',
-                  minHeight: '48px'
-                }}
-              >
-                <span style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5em' }}>
-                  <svg
-                    width="16"
-                    height="16"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <circle cx="12" cy="12" r="10" />
-                    <line x1="12" y1="16" x2="12" y2="12" />
-                    <line x1="12" y1="8" x2="12.01" y2="8" />
-                  </svg>
-                  How did we build this map?
-                </span>
-                <svg
-                  width="12"
-                  height="12"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  style={{ opacity: 0.5 }}
-                >
-                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
-                  <polyline points="15 3 21 3 21 9" />
-                  <line x1="10" y1="14" x2="21" y2="3" />
-                </svg>
-              </a>
-            </div>
+            {/* Methodology link intentionally hidden (see git history to restore). */}
           </div>
 
           {/* Apply filters button (sticky at bottom) */}
@@ -1632,79 +1570,7 @@ export default function FilterSidebar({ data, onFilterChange, isCollapsed, onTog
         </div>
       )}
 
-      {/* Bottom actions */}
-      <div style={{
-        marginTop: 'auto',
-        paddingTop: '1.5em',
-        borderTop: '1px solid hsla(0, 0%, 100%, 0.2)'
-      }}>
-        {/* Methodology link */}
-        <a
-          href="https://docs.google.com/document/d/1dJ3RlCSJ1xE0lpI8UmNRtkzb89H3MkgZNEcv75dTYSE/edit?tab=t.0#heading=h.o8mnhftwhx6z"
-          target="_blank"
-          rel="noopener noreferrer"
-          title="View Map Methodology"
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'space-between',
-            gap: '0.5em',
-            padding: '0.75em 1em',
-            border: '1px solid rgba(255, 255, 255, 0.15)',
-            background: 'transparent',
-            color: 'hsla(0, 0%, 100%, 0.7)',
-            cursor: 'pointer',
-            borderRadius: '0.375rem',
-            transition: 'color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease',
-            textDecoration: 'none',
-            fontSize: '0.8125em',
-            fontWeight: '500'
-          }}
-          onMouseEnter={(e) => {
-            e.currentTarget.style.color = 'var(--color-white)';
-            e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.08)';
-            e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.3)';
-          }}
-          onMouseLeave={(e) => {
-            e.currentTarget.style.color = 'hsla(0, 0%, 100%, 0.7)';
-            e.currentTarget.style.backgroundColor = 'transparent';
-            e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.15)';
-          }}
-        >
-          <span style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5em' }}>
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <circle cx="12" cy="12" r="10" />
-              <line x1="12" y1="16" x2="12" y2="12" />
-              <line x1="12" y1="8" x2="12.01" y2="8" />
-            </svg>
-            How did we build this map?
-          </span>
-          <svg
-            width="12"
-            height="12"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            style={{ opacity: 0.5 }}
-          >
-            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
-            <polyline points="15 3 21 3 21 9" />
-            <line x1="10" y1="14" x2="21" y2="3" />
-          </svg>
-        </a>
-      </div>
+      {/* Methodology link intentionally hidden (see git history to restore). */}
     </div>
   );
 }
